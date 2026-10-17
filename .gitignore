@@ -1,0 +1,13 @@
+node_modules
+dist
+dist-ssr
+*.local
+
+# Generated pdf.js worker (copied from node_modules at install/build time)
+public/pdf.worker.min.mjs
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
