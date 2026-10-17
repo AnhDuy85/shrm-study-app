@@ -3,8 +3,10 @@ import { Link, useParams } from 'react-router-dom';
 import { MODULE_BY_ID } from '../data/modules';
 import { FLASHCARDS, LESSONS, QUIZZES } from '../data';
 import { useAppState } from '../state/StateProvider';
+import { useLanguage } from '../state/LanguageProvider';
+import { tc } from '../i18n/helpers';
+import type { UiKey } from '../i18n/strings';
 import type { GroupId } from '../types';
-import PdfViewer from '../components/PdfViewer';
 import LessonContent from '../components/LessonContent';
 import FlashcardDeck from '../components/FlashcardDeck';
 import QuizRunner from '../components/QuizRunner';
@@ -12,19 +14,19 @@ import NotesEditor from '../components/NotesEditor';
 import Badge from '../components/Badge';
 import NotFound from './NotFound';
 
-type TabId = 'lesson' | 'read' | 'flashcards' | 'quiz' | 'notes';
+type TabId = 'lesson' | 'flashcards' | 'quiz' | 'notes';
 
-const TABS: { id: TabId; label: string }[] = [
-  { id: 'lesson', label: 'Nội dung học' },
-  { id: 'read', label: 'Read' },
-  { id: 'flashcards', label: 'Flashcards' },
-  { id: 'quiz', label: 'Quiz' },
-  { id: 'notes', label: 'Notes' },
+const TABS: { id: TabId; labelKey: UiKey }[] = [
+  { id: 'lesson', labelKey: 'tab.lesson' },
+  { id: 'flashcards', labelKey: 'tab.flashcards' },
+  { id: 'quiz', labelKey: 'tab.quiz' },
+  { id: 'notes', labelKey: 'tab.notes' },
 ];
 
 export default function ModulePage() {
   const { groupId } = useParams();
   const { state, setStudied } = useAppState();
+  const { lang, t } = useLanguage();
   const [activeTab, setActiveTab] = useState<TabId>('lesson');
   const tabRefs = useRef<(HTMLButtonElement | null)[]>([]);
 
@@ -53,12 +55,14 @@ export default function ModulePage() {
           to="/"
           className="text-sm text-indigo-600 hover:underline focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500"
         >
-          ‹ Về Dashboard
+          {t('module.back')}
         </Link>
         <div className="mt-2 flex flex-wrap items-center justify-between gap-3">
           <div>
             <h1 className="text-2xl font-bold">{module.title}</h1>
-            <p className="mt-1 text-sm text-gray-600">{module.description}</p>
+            <p className="mt-1 text-sm text-gray-600">
+              {tc(module.description, lang)}
+            </p>
             {module.competencies && (
               <div className="mt-2 flex flex-wrap gap-2">
                 {module.competencies.map((c) => (
@@ -76,14 +80,18 @@ export default function ModulePage() {
               onChange={(e) => setStudied(group, e.target.checked)}
               className="h-4 w-4 rounded text-indigo-600 focus:ring-indigo-500"
             />
-            Đánh dấu đã học
+            {t('module.markStudied')}
           </label>
         </div>
       </div>
 
       {/* Tabs */}
       <div className="border-b border-gray-200">
-        <div role="tablist" aria-label="Nội dung mô-đun" className="flex gap-1">
+        <div
+          role="tablist"
+          aria-label={t('module.tablistAria')}
+          className="flex gap-1"
+        >
           {TABS.map((tab, i) => (
             <button
               key={tab.id}
@@ -103,7 +111,7 @@ export default function ModulePage() {
                   : 'border-transparent text-gray-500 hover:text-gray-700'
               }`}
             >
-              {tab.label}
+              {t(tab.labelKey)}
             </button>
           ))}
         </div>
@@ -119,9 +127,6 @@ export default function ModulePage() {
       >
         {activeTab === 'lesson' && (
           <LessonContent group={group} lesson={LESSONS[group]} />
-        )}
-        {activeTab === 'read' && (
-          <PdfViewer group={group} pdfs={module.pdfs} />
         )}
         {activeTab === 'flashcards' && (
           <FlashcardDeck group={group} cards={FLASHCARDS[group]} />

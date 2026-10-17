@@ -1,12 +1,8 @@
 import { useState, type ReactNode } from 'react';
 import { NavLink } from 'react-router-dom';
 import { MODULES } from '../data/modules';
+import { useLanguage } from '../state/LanguageProvider';
 import type { DomainKind, ModuleDef } from '../types';
-
-const DOMAIN_LABELS: Record<DomainKind, string> = {
-  knowledge: 'HR Knowledge',
-  competency: 'Behavioral Competencies',
-};
 
 function navLinkClasses({ isActive }: { isActive: boolean }): string {
   const base =
@@ -17,18 +13,23 @@ function navLinkClasses({ isActive }: { isActive: boolean }): string {
 }
 
 function ModuleNav({ onNavigate }: { onNavigate?: () => void }) {
+  const { t } = useLanguage();
   const groups: DomainKind[] = ['knowledge', 'competency'];
+  const domainLabel: Record<DomainKind, string> = {
+    knowledge: t('dash.domainKnowledge'),
+    competency: t('dash.domainCompetency'),
+  };
   return (
-    <nav aria-label="Danh sách mô-đun học" className="space-y-6">
+    <nav aria-label={t('nav.aria')} className="space-y-6">
       <NavLink to="/" end className={navLinkClasses} onClick={onNavigate}>
-        Dashboard
+        {t('nav.dashboard')}
       </NavLink>
       {groups.map((kind) => {
         const items = MODULES.filter((m: ModuleDef) => m.kind === kind);
         return (
           <div key={kind}>
             <h2 className="px-3 text-xs font-semibold uppercase tracking-wide text-gray-500">
-              {DOMAIN_LABELS[kind]}
+              {domainLabel[kind]}
             </h2>
             <ul className="mt-2 space-y-1">
               {items.map((m) => (
@@ -50,7 +51,42 @@ function ModuleNav({ onNavigate }: { onNavigate?: () => void }) {
   );
 }
 
+function LanguageToggle() {
+  const { lang, t, setLang } = useLanguage();
+  const buttonClass = (active: boolean) =>
+    `rounded-md px-2 py-1 text-xs font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 ${
+      active
+        ? 'bg-indigo-600 text-white'
+        : 'border border-gray-300 text-gray-700 hover:bg-gray-100'
+    }`;
+  return (
+    <div
+      role="group"
+      aria-label={t('lang.toggleAria')}
+      className="flex items-center gap-1"
+    >
+      <button
+        type="button"
+        onClick={() => setLang('vi')}
+        aria-pressed={lang === 'vi'}
+        className={buttonClass(lang === 'vi')}
+      >
+        {t('lang.vi')}
+      </button>
+      <button
+        type="button"
+        onClick={() => setLang('en')}
+        aria-pressed={lang === 'en'}
+        className={buttonClass(lang === 'en')}
+      >
+        {t('lang.en')}
+      </button>
+    </div>
+  );
+}
+
 export default function AppLayout({ children }: { children: ReactNode }) {
+  const { t } = useLanguage();
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
@@ -62,7 +98,7 @@ export default function AppLayout({ children }: { children: ReactNode }) {
             <button
               type="button"
               className="rounded-md p-2 text-gray-700 hover:bg-gray-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 md:hidden"
-              aria-label={mobileOpen ? 'Đóng menu' : 'Mở menu'}
+              aria-label={mobileOpen ? t('nav.closeMenu') : t('nav.openMenu')}
               aria-expanded={mobileOpen}
               aria-controls="mobile-nav"
               onClick={() => setMobileOpen((open) => !open)}
@@ -71,11 +107,14 @@ export default function AppLayout({ children }: { children: ReactNode }) {
                 {mobileOpen ? '✕' : '☰'}
               </span>
             </button>
-            <span className="text-lg font-bold">SHRM Study App</span>
+            <span className="text-lg font-bold">{t('app.title')}</span>
           </div>
-          <span className="hidden text-sm text-gray-500 sm:inline">
-            SHRM-CP / SCP
-          </span>
+          <div className="flex items-center gap-3">
+            <span className="hidden text-sm text-gray-500 sm:inline">
+              {t('app.exam')}
+            </span>
+            <LanguageToggle />
+          </div>
         </div>
         {/* Mobile nav panel */}
         {mobileOpen && (

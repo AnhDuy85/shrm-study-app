@@ -6,7 +6,7 @@ import {
   useState,
   type ReactNode,
 } from 'react';
-import type { GroupId } from '../types';
+import type { GroupId, Lang } from '../types';
 import {
   loadState,
   resetAll as resetStorage,
@@ -31,7 +31,7 @@ interface AppStateContextValue {
   ) => void;
   recordQuizAttempt: (group: GroupId, attempt: QuizAttempt) => void;
   setNotes: (group: GroupId, notes: string) => void;
-  setReadPage: (group: GroupId, file: string, page: number) => void;
+  setLanguage: (lang: Lang) => void;
   resetAll: () => void;
 }
 
@@ -117,14 +117,9 @@ export function StateProvider({ children }: { children: ReactNode }) {
     [persist],
   );
 
-  const setReadPage = useCallback(
-    (group: GroupId, file: string, page: number) => {
-      persist((prev) =>
-        updateModule(prev, group, (m) => ({
-          ...m,
-          readPages: { ...m.readPages, [file]: page },
-        })),
-      );
+  const setLanguage = useCallback(
+    (lang: Lang) => {
+      persist((prev) => ({ ...prev, language: lang }));
     },
     [persist],
   );
@@ -141,7 +136,7 @@ export function StateProvider({ children }: { children: ReactNode }) {
       setCardState,
       recordQuizAttempt,
       setNotes,
-      setReadPage,
+      setLanguage,
       resetAll,
     }),
     [
@@ -150,7 +145,7 @@ export function StateProvider({ children }: { children: ReactNode }) {
       setCardState,
       recordQuizAttempt,
       setNotes,
-      setReadPage,
+      setLanguage,
       resetAll,
     ],
   );

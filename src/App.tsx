@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { StateProvider } from './state/StateProvider';
+import { LanguageProvider } from './state/LanguageProvider';
 import AppLayout from './components/AppLayout';
 import DashboardPage from './pages/DashboardPage';
 import ModulePage from './pages/ModulePage';
@@ -11,15 +12,17 @@ export default function App() {
   void LESSONS;
   return (
     <StateProvider>
-      <BrowserRouter>
-        <AppLayout>
-          <Routes>
-            <Route path="/" element={<DashboardPage />} />
-            <Route path="/module/:groupId" element={<ModulePage />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-        </AppLayout>
-      </BrowserRouter>
+      <LanguageProvider>
+        <BrowserRouter>
+          <AppLayout>
+            <Routes>
+              <Route path="/" element={<DashboardPage />} />
+              <Route path="/module/:groupId" element={<ModulePage />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </AppLayout>
+        </BrowserRouter>
+      </LanguageProvider>
     </StateProvider>
   );
 }

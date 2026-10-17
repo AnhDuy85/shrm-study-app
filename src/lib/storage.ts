@@ -1,4 +1,4 @@
-import type { GroupId } from '../types';
+import type { GroupId, Lang } from '../types';
 
 const STORAGE_KEY = 'shrm-study-app:v1';
 
@@ -18,11 +18,11 @@ export interface ModuleProgress {
   lastAttempt: { score: number; total: number; dateISO: string } | null;
   lastWrong: string[]; // quiz question ids wrong in last attempt
   notes: string; // free text
-  readPages: Record<string, number>; // pdf file -> last page viewed
 }
 
 export interface AppState {
   version: 1;
+  language: Lang;
   modules: Record<GroupId, ModuleProgress>;
 }
 
@@ -34,7 +34,6 @@ function defaultModuleProgress(): ModuleProgress {
     lastAttempt: null,
     lastWrong: [],
     notes: '',
-    readPages: {},
   };
 }
 
@@ -43,7 +42,7 @@ export function defaultState(): AppState {
   for (const id of GROUP_IDS) {
     modules[id] = defaultModuleProgress();
   }
-  return { version: 1, modules };
+  return { version: 1, language: 'vi', modules };
 }
 
 function isObject(value: unknown): value is Record<string, unknown> {
@@ -85,11 +84,6 @@ function mergeModuleProgress(raw: unknown): ModuleProgress {
     );
   }
   if (typeof raw.notes === 'string') base.notes = raw.notes;
-  if (isObject(raw.readPages)) {
-    for (const [file, page] of Object.entries(raw.readPages)) {
-      if (typeof page === 'number') base.readPages[file] = page;
-    }
-  }
   return base;
 }
 
@@ -113,6 +107,7 @@ export function loadState(): AppState {
         (parsed.modules as Record<string, unknown>)[id],
       );
     }
+    state.language = parsed.language === 'en' ? 'en' : 'vi';
     return state;
   } catch {
     // Corrupt or inaccessible storage -> fall back to defaults.

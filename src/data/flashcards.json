@@ -3,192 +3,300 @@
     {
       "id": "people-01",
       "term": "Talent Acquisition",
-      "definition": "Quá trình tìm kiếm, thu hút và tuyển dụng ứng viên để đáp ứng nhu cầu nhân lực của tổ chức, bao gồm tạo nguồn, tuyển mộ và lựa chọn."
+      "definition": {
+        "vi": "Quá trình tìm kiếm, thu hút và tuyển dụng ứng viên để đáp ứng nhu cầu nhân lực của tổ chức, bao gồm tạo nguồn, tuyển mộ và lựa chọn.",
+        "en": "The process of finding, attracting and hiring candidates to meet the organization's workforce needs, including sourcing, recruiting and selection."
+      }
     },
     {
       "id": "people-02",
       "term": "Employee Engagement & Retention",
-      "definition": "Mức độ cam kết, gắn bó của nhân viên với công việc và tổ chức, cùng các hoạt động giữ chân nhân viên và giảm tỷ lệ nghỉ việc."
+      "definition": {
+        "vi": "Mức độ cam kết, gắn bó của nhân viên với công việc và tổ chức, cùng các hoạt động giữ chân nhân viên và giảm tỷ lệ nghỉ việc.",
+        "en": "Employees' level of commitment to their work and the organization, plus the activities that retain them and reduce turnover."
+      }
     },
     {
       "id": "people-03",
       "term": "Learning & Development",
-      "definition": "Các hoạt động phát triển kiến thức, kỹ năng và năng lực của nhân viên như đào tạo, kèm cặp (coaching) và phát triển nghề nghiệp."
+      "definition": {
+        "vi": "Các hoạt động phát triển kiến thức, kỹ năng và năng lực của nhân viên như đào tạo, kèm cặp (coaching) và phát triển nghề nghiệp.",
+        "en": "Activities that develop employees' knowledge, skills and abilities, such as training, coaching and career development."
+      }
     },
     {
       "id": "people-04",
       "term": "Total Rewards",
-      "definition": "Tổng thể lương, thưởng, phúc lợi và các đãi ngộ (tiền và phi tiền) mà tổ chức dùng để thu hút, tạo động lực và giữ chân nhân viên."
+      "definition": {
+        "vi": "Tổng thể lương, thưởng, phúc lợi và các đãi ngộ (tiền và phi tiền) mà tổ chức dùng để thu hút, tạo động lực và giữ chân nhân viên.",
+        "en": "The full set of pay, bonuses, benefits and rewards (monetary and non-monetary) used to attract, motivate and retain employees."
+      }
     },
     {
       "id": "people-05",
       "term": "Performance Management",
-      "definition": "Quy trình liên tục thiết lập mục tiêu, theo dõi, đánh giá và phản hồi về hiệu suất nhằm gắn kết đóng góp cá nhân với mục tiêu tổ chức."
+      "definition": {
+        "vi": "Quy trình liên tục thiết lập mục tiêu, theo dõi, đánh giá và phản hồi về hiệu suất nhằm gắn kết đóng góp cá nhân với mục tiêu tổ chức.",
+        "en": "A continuous process of setting goals, monitoring, evaluating and giving feedback on performance to align individual contribution with organizational goals."
+      }
     },
     {
       "id": "people-06",
       "term": "Employee Value Proposition (EVP)",
-      "definition": "Tập hợp giá trị và lợi ích mà tổ chức mang lại cho nhân viên, đổi lại kỹ năng và đóng góp của họ; nền tảng cho thương hiệu nhà tuyển dụng."
+      "definition": {
+        "vi": "Tập hợp giá trị và lợi ích mà tổ chức mang lại cho nhân viên, đổi lại kỹ năng và đóng góp của họ; nền tảng cho thương hiệu nhà tuyển dụng.",
+        "en": "The set of value and benefits an organization offers employees in exchange for their skills and contribution; the basis of the employer brand."
+      }
     }
   ],
   "organization": [
     {
       "id": "organization-01",
       "term": "Organizational Structure",
-      "definition": "Cách tổ chức phân chia, nhóm và phối hợp công việc, xác định tuyến báo cáo và phân bổ quyền hạn, trách nhiệm."
+      "definition": {
+        "vi": "Cách tổ chức phân chia, nhóm và phối hợp công việc, xác định tuyến báo cáo và phân bổ quyền hạn, trách nhiệm.",
+        "en": "How an organization divides, groups and coordinates work, defining reporting lines and allocating authority and responsibility."
+      }
     },
     {
       "id": "organization-02",
       "term": "Organizational Culture",
-      "definition": "Hệ thống giá trị, niềm tin và chuẩn mực chung định hình cách hành xử của các thành viên trong tổ chức."
+      "definition": {
+        "vi": "Hệ thống giá trị, niềm tin và chuẩn mực chung định hình cách hành xử của các thành viên trong tổ chức.",
+        "en": "The shared system of values, beliefs and norms that shapes how members of the organization behave."
+      }
     },
     {
       "id": "organization-03",
       "term": "Change Management",
-      "definition": "Phương pháp tiếp cận có hệ thống để chuẩn bị, hỗ trợ và giúp cá nhân, tổ chức chuyển đổi từ trạng thái hiện tại sang trạng thái mong muốn."
+      "definition": {
+        "vi": "Phương pháp tiếp cận có hệ thống để chuẩn bị, hỗ trợ và giúp cá nhân, tổ chức chuyển đổi từ trạng thái hiện tại sang trạng thái mong muốn.",
+        "en": "A systematic approach to preparing, supporting and helping individuals and organizations move from a current to a desired state."
+      }
     },
     {
       "id": "organization-04",
       "term": "Workforce Planning",
-      "definition": "Quá trình phân tích và dự báo nhu cầu nhân lực để bảo đảm tổ chức có đúng người, đúng kỹ năng, đúng số lượng, vào đúng thời điểm."
+      "definition": {
+        "vi": "Quá trình phân tích và dự báo nhu cầu nhân lực để bảo đảm tổ chức có đúng người, đúng kỹ năng, đúng số lượng, vào đúng thời điểm.",
+        "en": "The process of analyzing and forecasting workforce needs so the organization has the right people, skills and numbers at the right time."
+      }
     },
     {
       "id": "organization-05",
       "term": "Technology Management (HR Technology)",
-      "definition": "Việc lựa chọn, triển khai và sử dụng công nghệ, hệ thống HRIS và dữ liệu để nâng cao hiệu quả các chức năng nhân sự."
+      "definition": {
+        "vi": "Việc lựa chọn, triển khai và sử dụng công nghệ, hệ thống HRIS và dữ liệu để nâng cao hiệu quả các chức năng nhân sự.",
+        "en": "Selecting, implementing and using technology, HRIS systems and data to improve the effectiveness of HR functions."
+      }
     },
     {
       "id": "organization-06",
       "term": "Organizational Effectiveness & Development",
-      "definition": "Các nỗ lực cải thiện năng lực, cấu trúc và quy trình của tổ chức để đạt mục tiêu chiến lược một cách bền vững."
+      "definition": {
+        "vi": "Các nỗ lực cải thiện năng lực, cấu trúc và quy trình của tổ chức để đạt mục tiêu chiến lược một cách bền vững.",
+        "en": "Efforts to improve the organization's capability, structure and processes to achieve strategic goals sustainably."
+      }
     }
   ],
   "workplace": [
     {
       "id": "workplace-01",
       "term": "Risk Management",
-      "definition": "Quá trình nhận diện, đánh giá và kiểm soát các rủi ro về con người, pháp lý và hoạt động có thể ảnh hưởng đến tổ chức."
+      "definition": {
+        "vi": "Quá trình nhận diện, đánh giá và kiểm soát các rủi ro về con người, pháp lý và hoạt động có thể ảnh hưởng đến tổ chức.",
+        "en": "The process of identifying, assessing and controlling people, legal and operational risks that could affect the organization."
+      }
     },
     {
       "id": "workplace-02",
       "term": "Workplace Health, Safety & Security",
-      "definition": "Các chính sách và biện pháp bảo vệ sức khỏe, an toàn và an ninh cho nhân viên tại nơi làm việc."
+      "definition": {
+        "vi": "Các chính sách và biện pháp bảo vệ sức khỏe, an toàn và an ninh cho nhân viên tại nơi làm việc.",
+        "en": "Policies and measures that protect the health, safety and security of employees at work."
+      }
     },
     {
       "id": "workplace-03",
       "term": "Corporate Social Responsibility (CSR)",
-      "definition": "Cam kết của tổ chức hành động có đạo đức và đóng góp cho sự phát triển bền vững của cộng đồng và xã hội."
+      "definition": {
+        "vi": "Cam kết của tổ chức hành động có đạo đức và đóng góp cho sự phát triển bền vững của cộng đồng và xã hội.",
+        "en": "An organization's commitment to act ethically and contribute to the sustainable development of the community and society."
+      }
     },
     {
       "id": "workplace-04",
       "term": "Employment Law & Regulations",
-      "definition": "Hệ thống luật và quy định điều chỉnh quan hệ lao động mà tổ chức phải tuân thủ trong quản lý nhân sự."
+      "definition": {
+        "vi": "Hệ thống luật và quy định điều chỉnh quan hệ lao động mà tổ chức phải tuân thủ trong quản lý nhân sự.",
+        "en": "The body of laws and regulations governing the employment relationship that an organization must comply with in managing people."
+      }
     },
     {
       "id": "workplace-05",
       "term": "Diversity, Equity & Inclusion in the Workplace",
-      "definition": "Tạo môi trường làm việc tôn trọng sự đa dạng, bảo đảm công bằng về cơ hội và sự hòa nhập của mọi nhân viên."
+      "definition": {
+        "vi": "Tạo môi trường làm việc tôn trọng sự đa dạng, bảo đảm công bằng về cơ hội và sự hòa nhập của mọi nhân viên.",
+        "en": "Creating a workplace that respects diversity, ensures equal opportunity and fosters the inclusion of all employees."
+      }
     },
     {
       "id": "workplace-06",
       "term": "Global Workforce (U.S. Employment / Global Mobility)",
-      "definition": "Quản lý lực lượng lao động xuyên biên giới, bao gồm luân chuyển quốc tế và tuân thủ quy định tại nhiều quốc gia."
+      "definition": {
+        "vi": "Quản lý lực lượng lao động xuyên biên giới, bao gồm luân chuyển quốc tế và tuân thủ quy định tại nhiều quốc gia.",
+        "en": "Managing a cross-border workforce, including international mobility and compliance with regulations across multiple countries."
+      }
     }
   ],
   "leadership": [
     {
       "id": "leadership-01",
       "term": "Leadership & Navigation",
-      "definition": "Năng lực dẫn dắt, định hướng tổ chức, tạo tầm nhìn và điều hướng qua các quy trình, hệ thống để đạt mục tiêu."
+      "definition": {
+        "vi": "Năng lực dẫn dắt, định hướng tổ chức, tạo tầm nhìn và điều hướng qua các quy trình, hệ thống để đạt mục tiêu.",
+        "en": "The ability to lead and direct the organization, set a vision and navigate processes and systems to achieve goals."
+      }
     },
     {
       "id": "leadership-02",
       "term": "Ethical Practice",
-      "definition": "Năng lực duy trì các giá trị cốt lõi, tính chính trực và trách nhiệm giải trình trong mọi hoạt động của tổ chức."
+      "definition": {
+        "vi": "Năng lực duy trì các giá trị cốt lõi, tính chính trực và trách nhiệm giải trình trong mọi hoạt động của tổ chức.",
+        "en": "The ability to uphold core values, integrity and accountability across all organizational activities."
+      }
     },
     {
       "id": "leadership-03",
       "term": "Vision",
-      "definition": "Khả năng xác định và truyền đạt định hướng dài hạn, gắn kết các sáng kiến nhân sự với chiến lược của tổ chức."
+      "definition": {
+        "vi": "Khả năng xác định và truyền đạt định hướng dài hạn, gắn kết các sáng kiến nhân sự với chiến lược của tổ chức.",
+        "en": "The ability to define and communicate long-term direction, aligning HR initiatives with the organization's strategy."
+      }
     },
     {
       "id": "leadership-04",
       "term": "Managing HR Initiatives",
-      "definition": "Dẫn dắt và triển khai các dự án, sáng kiến nhân sự một cách hiệu quả để tạo giá trị cho tổ chức."
+      "definition": {
+        "vi": "Dẫn dắt và triển khai các dự án, sáng kiến nhân sự một cách hiệu quả để tạo giá trị cho tổ chức.",
+        "en": "Leading and implementing HR projects and initiatives effectively to create value for the organization."
+      }
     },
     {
       "id": "leadership-05",
       "term": "Influence",
-      "definition": "Khả năng tạo ảnh hưởng, truyền cảm hứng và vận động người khác hướng tới mục tiêu chung mà không nhất thiết dựa vào quyền lực chính thức."
+      "definition": {
+        "vi": "Khả năng tạo ảnh hưởng, truyền cảm hứng và vận động người khác hướng tới mục tiêu chung mà không nhất thiết dựa vào quyền lực chính thức.",
+        "en": "The ability to influence, inspire and mobilize others toward shared goals without necessarily relying on formal authority."
+      }
     },
     {
       "id": "leadership-06",
       "term": "Personal Integrity & Professionalism",
-      "definition": "Hành xử nhất quán với các nguyên tắc đạo đức, làm gương và duy trì chuẩn mực nghề nghiệp của người làm nhân sự."
+      "definition": {
+        "vi": "Hành xử nhất quán với các nguyên tắc đạo đức, làm gương và duy trì chuẩn mực nghề nghiệp của người làm nhân sự.",
+        "en": "Acting consistently with ethical principles, leading by example and upholding the professional standards of an HR practitioner."
+      }
     }
   ],
   "interpersonal": [
     {
       "id": "interpersonal-01",
       "term": "Relationship Management",
-      "definition": "Năng lực xây dựng và duy trì mạng lưới quan hệ, quản lý xung đột và làm việc nhóm hiệu quả trong tổ chức."
+      "definition": {
+        "vi": "Năng lực xây dựng và duy trì mạng lưới quan hệ, quản lý xung đột và làm việc nhóm hiệu quả trong tổ chức.",
+        "en": "The ability to build and maintain networks, manage conflict and work in teams effectively within the organization."
+      }
     },
     {
       "id": "interpersonal-02",
       "term": "Communication",
-      "definition": "Năng lực trao đổi thông tin, lắng nghe và truyền đạt ý tưởng rõ ràng, phù hợp với từng đối tượng và tình huống."
+      "definition": {
+        "vi": "Năng lực trao đổi thông tin, lắng nghe và truyền đạt ý tưởng rõ ràng, phù hợp với từng đối tượng và tình huống.",
+        "en": "The ability to exchange information, listen and convey ideas clearly, appropriate to each audience and situation."
+      }
     },
     {
       "id": "interpersonal-03",
       "term": "Global Mindset",
-      "definition": "Năng lực đánh giá cao và tôn trọng sự khác biệt về văn hóa, quan điểm để làm việc hiệu quả trong môi trường đa văn hóa."
+      "definition": {
+        "vi": "Năng lực đánh giá cao và tôn trọng sự khác biệt về văn hóa, quan điểm để làm việc hiệu quả trong môi trường đa văn hóa.",
+        "en": "The ability to value and respect differences in culture and perspective to work effectively in multicultural settings."
+      }
     },
     {
       "id": "interpersonal-04",
       "term": "Diversity, Equity & Inclusion",
-      "definition": "Năng lực thúc đẩy môi trường tôn trọng đa dạng, bảo đảm công bằng và sự tham gia của mọi cá nhân."
+      "definition": {
+        "vi": "Năng lực thúc đẩy môi trường tôn trọng đa dạng, bảo đảm công bằng và sự tham gia của mọi cá nhân.",
+        "en": "The ability to promote an environment that respects diversity, ensures equity and includes the participation of all individuals."
+      }
     },
     {
       "id": "interpersonal-05",
       "term": "Teamwork & Negotiation",
-      "definition": "Khả năng hợp tác trong nhóm và thương lượng để đạt được kết quả đôi bên cùng có lợi, đồng thời xử lý bất đồng mang tính xây dựng."
+      "definition": {
+        "vi": "Khả năng hợp tác trong nhóm và thương lượng để đạt được kết quả đôi bên cùng có lợi, đồng thời xử lý bất đồng mang tính xây dựng.",
+        "en": "The ability to collaborate in teams and negotiate win-win outcomes while handling disagreements constructively."
+      }
     },
     {
       "id": "interpersonal-06",
       "term": "Conflict Management",
-      "definition": "Kỹ năng nhận diện, điều phối và giải quyết xung đột giữa các cá nhân hoặc nhóm một cách hiệu quả và chuyên nghiệp."
+      "definition": {
+        "vi": "Kỹ năng nhận diện, điều phối và giải quyết xung đột giữa các cá nhân hoặc nhóm một cách hiệu quả và chuyên nghiệp.",
+        "en": "The skill of identifying, mediating and resolving conflict between individuals or groups effectively and professionally."
+      }
     }
   ],
   "business": [
     {
       "id": "business-01",
       "term": "Business Acumen",
-      "definition": "Năng lực hiểu hoạt động kinh doanh, tài chính và vận hành để liên kết chiến lược nhân sự với mục tiêu của tổ chức."
+      "definition": {
+        "vi": "Năng lực hiểu hoạt động kinh doanh, tài chính và vận hành để liên kết chiến lược nhân sự với mục tiêu của tổ chức.",
+        "en": "The ability to understand business, finance and operations in order to link HR strategy to the organization's goals."
+      }
     },
     {
       "id": "business-02",
       "term": "Consultation",
-      "definition": "Năng lực tư vấn cho các bên liên quan, đưa ra hướng dẫn và giải pháp nhân sự dựa trên nhu cầu của tổ chức."
+      "definition": {
+        "vi": "Năng lực tư vấn cho các bên liên quan, đưa ra hướng dẫn và giải pháp nhân sự dựa trên nhu cầu của tổ chức.",
+        "en": "The ability to advise stakeholders and provide HR guidance and solutions based on the organization's needs."
+      }
     },
     {
       "id": "business-03",
       "term": "Analytical Aptitude",
-      "definition": "Năng lực thu thập, diễn giải và sử dụng dữ liệu, chỉ số nhân sự để hỗ trợ ra quyết định dựa trên bằng chứng."
+      "definition": {
+        "vi": "Năng lực thu thập, diễn giải và sử dụng dữ liệu, chỉ số nhân sự để hỗ trợ ra quyết định dựa trên bằng chứng.",
+        "en": "The ability to gather, interpret and use HR data and metrics to support evidence-based decisions."
+      }
     },
     {
       "id": "business-04",
       "term": "Critical Evaluation",
-      "definition": "Năng lực diễn giải thông tin để đưa ra kết luận và khuyến nghị kinh doanh, bao gồm đánh giá dữ liệu và nghiên cứu một cách phản biện."
+      "definition": {
+        "vi": "Năng lực diễn giải thông tin để đưa ra kết luận và khuyến nghị kinh doanh, bao gồm đánh giá dữ liệu và nghiên cứu một cách phản biện.",
+        "en": "The ability to interpret information to reach business conclusions and recommendations, including critically evaluating data and research."
+      }
     },
     {
       "id": "business-05",
       "term": "Data Advocacy & HR Metrics",
-      "definition": "Việc sử dụng các chỉ số và phân tích nhân sự (HR metrics) để chứng minh giá trị và tác động của các sáng kiến nhân sự."
+      "definition": {
+        "vi": "Việc sử dụng các chỉ số và phân tích nhân sự (HR metrics) để chứng minh giá trị và tác động của các sáng kiến nhân sự.",
+        "en": "Using HR metrics and analytics to demonstrate the value and impact of HR initiatives."
+      }
     },
     {
       "id": "business-06",
       "term": "Strategic Alignment",
-      "definition": "Khả năng gắn kết các chương trình, chính sách nhân sự với chiến lược và ưu tiên tổng thể của doanh nghiệp."
+      "definition": {
+        "vi": "Khả năng gắn kết các chương trình, chính sách nhân sự với chiến lược và ưu tiên tổng thể của doanh nghiệp.",
+        "en": "The ability to align HR programs and policies with the overall strategy and priorities of the business."
+      }
     }
   ]
 }

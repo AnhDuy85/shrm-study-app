@@ -2,265 +2,643 @@
   "people": [
     {
       "id": "people-q1",
-      "question": "Hoạt động nào sau đây thuộc chức năng Talent Acquisition?",
+      "question": {
+        "vi": "Hoạt động nào sau đây thuộc chức năng Talent Acquisition?",
+        "en": "Which of the following belongs to the Talent Acquisition function?"
+      },
       "options": [
-        "Tạo nguồn, tuyển mộ và lựa chọn ứng viên",
-        "Xây dựng cấu trúc tổ chức",
-        "Quản lý rủi ro pháp lý",
-        "Triển khai hệ thống HRIS"
+        {
+          "vi": "Tạo nguồn, tuyển mộ và lựa chọn ứng viên",
+          "en": "Sourcing, recruiting and selecting candidates"
+        },
+        {
+          "vi": "Xây dựng cấu trúc tổ chức",
+          "en": "Designing the organizational structure"
+        },
+        {
+          "vi": "Quản lý rủi ro pháp lý",
+          "en": "Managing legal risk"
+        },
+        {
+          "vi": "Triển khai hệ thống HRIS",
+          "en": "Implementing an HRIS"
+        }
       ],
       "correctIndex": 0,
-      "explanation": "Talent Acquisition tập trung vào tìm nguồn, thu hút và lựa chọn ứng viên phù hợp cho tổ chức."
+      "explanation": {
+        "vi": "Talent Acquisition tập trung vào tìm nguồn, thu hút và lựa chọn ứng viên phù hợp cho tổ chức.",
+        "en": "Talent Acquisition focuses on sourcing, attracting and selecting the right candidates for the organization."
+      }
     },
     {
       "id": "people-q2",
-      "question": "Total Rewards bao gồm những thành phần nào?",
+      "question": {
+        "vi": "Total Rewards bao gồm những thành phần nào?",
+        "en": "What does Total Rewards include?"
+      },
       "options": [
-        "Chỉ lương cơ bản",
-        "Chỉ các khoản thưởng bằng tiền",
-        "Lương, thưởng, phúc lợi và các đãi ngộ phi tiền tệ",
-        "Chỉ phúc lợi bảo hiểm"
+        {
+          "vi": "Chỉ lương cơ bản",
+          "en": "Base salary only"
+        },
+        {
+          "vi": "Chỉ các khoản thưởng bằng tiền",
+          "en": "Monetary bonuses only"
+        },
+        {
+          "vi": "Lương, thưởng, phúc lợi và các đãi ngộ phi tiền tệ",
+          "en": "Pay, bonuses, benefits and non-monetary rewards"
+        },
+        {
+          "vi": "Chỉ phúc lợi bảo hiểm",
+          "en": "Insurance benefits only"
+        }
       ],
       "correctIndex": 2,
-      "explanation": "Total Rewards là tổng thể các đãi ngộ gồm cả yếu tố tiền tệ và phi tiền tệ nhằm thu hút và giữ chân nhân viên."
+      "explanation": {
+        "vi": "Total Rewards là tổng thể các đãi ngộ gồm cả yếu tố tiền tệ và phi tiền tệ nhằm thu hút và giữ chân nhân viên.",
+        "en": "Total Rewards is the full set of rewards, both monetary and non-monetary, used to attract and retain employees."
+      }
     },
     {
       "id": "people-q3",
-      "question": "Performance Management được mô tả đúng nhất là gì?",
+      "question": {
+        "vi": "Performance Management được mô tả đúng nhất là gì?",
+        "en": "Which best describes Performance Management?"
+      },
       "options": [
-        "Sự kiện đánh giá một lần mỗi năm",
-        "Quy trình liên tục thiết lập mục tiêu, theo dõi và phản hồi hiệu suất",
-        "Hoạt động chỉ do nhân viên tự thực hiện",
-        "Việc tính lương hằng tháng"
+        {
+          "vi": "Sự kiện đánh giá một lần mỗi năm",
+          "en": "A once-a-year appraisal event"
+        },
+        {
+          "vi": "Quy trình liên tục thiết lập mục tiêu, theo dõi và phản hồi hiệu suất",
+          "en": "A continuous process of goal setting, monitoring and feedback on performance"
+        },
+        {
+          "vi": "Hoạt động chỉ do nhân viên tự thực hiện",
+          "en": "An activity done only by employees themselves"
+        },
+        {
+          "vi": "Việc tính lương hằng tháng",
+          "en": "Monthly payroll processing"
+        }
       ],
       "correctIndex": 1,
-      "explanation": "Quản lý hiệu suất là một quy trình liên tục gắn đóng góp cá nhân với mục tiêu tổ chức, không chỉ là một lần đánh giá."
+      "explanation": {
+        "vi": "Quản lý hiệu suất là một quy trình liên tục gắn đóng góp cá nhân với mục tiêu tổ chức, không chỉ là một lần đánh giá.",
+        "en": "Performance management is a continuous process aligning individual contribution with organizational goals, not a single review."
+      }
     },
     {
       "id": "people-q4",
-      "question": "Employee Value Proposition (EVP) là gì?",
+      "question": {
+        "vi": "Employee Value Proposition (EVP) là gì?",
+        "en": "What is an Employee Value Proposition (EVP)?"
+      },
       "options": [
-        "Mức lương tối thiểu theo luật",
-        "Tập hợp giá trị và lợi ích tổ chức mang lại cho nhân viên",
-        "Một loại hợp đồng lao động",
-        "Quy trình sa thải nhân viên"
+        {
+          "vi": "Mức lương tối thiểu theo luật",
+          "en": "The statutory minimum wage"
+        },
+        {
+          "vi": "Tập hợp giá trị và lợi ích tổ chức mang lại cho nhân viên",
+          "en": "The set of value and benefits an organization offers employees"
+        },
+        {
+          "vi": "Một loại hợp đồng lao động",
+          "en": "A type of employment contract"
+        },
+        {
+          "vi": "Quy trình sa thải nhân viên",
+          "en": "A layoff process"
+        }
       ],
       "correctIndex": 1,
-      "explanation": "EVP là tập hợp giá trị, lợi ích mà tổ chức cung cấp cho nhân viên, đổi lại kỹ năng và đóng góp của họ."
+      "explanation": {
+        "vi": "EVP là tập hợp giá trị, lợi ích mà tổ chức cung cấp cho nhân viên, đổi lại kỹ năng và đóng góp của họ.",
+        "en": "An EVP is the set of value and benefits an organization provides employees in exchange for their skills and contribution."
+      }
     }
   ],
   "organization": [
     {
       "id": "organization-q1",
-      "question": "Organizational Culture đề cập đến điều gì?",
+      "question": {
+        "vi": "Organizational Culture đề cập đến điều gì?",
+        "en": "What does Organizational Culture refer to?"
+      },
       "options": [
-        "Sơ đồ tổ chức chính thức",
-        "Hệ thống giá trị, niềm tin và chuẩn mực chung",
-        "Bảng lương của nhân viên",
-        "Danh sách phần mềm công ty dùng"
+        {
+          "vi": "Sơ đồ tổ chức chính thức",
+          "en": "The formal organizational chart"
+        },
+        {
+          "vi": "Hệ thống giá trị, niềm tin và chuẩn mực chung",
+          "en": "The shared system of values, beliefs and norms"
+        },
+        {
+          "vi": "Bảng lương của nhân viên",
+          "en": "The employee payroll"
+        },
+        {
+          "vi": "Danh sách phần mềm công ty dùng",
+          "en": "The list of software the company uses"
+        }
       ],
       "correctIndex": 1,
-      "explanation": "Văn hóa tổ chức là hệ thống giá trị, niềm tin và chuẩn mực chung định hình hành vi của thành viên."
+      "explanation": {
+        "vi": "Văn hóa tổ chức là hệ thống giá trị, niềm tin và chuẩn mực chung định hình hành vi của thành viên.",
+        "en": "Organizational culture is the shared system of values, beliefs and norms that shapes members' behavior."
+      }
     },
     {
       "id": "organization-q2",
-      "question": "Change Management chủ yếu nhằm mục đích gì?",
+      "question": {
+        "vi": "Change Management chủ yếu nhằm mục đích gì?",
+        "en": "What is the main purpose of Change Management?"
+      },
       "options": [
-        "Giữ nguyên hiện trạng của tổ chức",
-        "Hỗ trợ cá nhân và tổ chức chuyển đổi sang trạng thái mong muốn",
-        "Chỉ thay đổi logo công ty",
-        "Tăng số lượng cuộc họp"
+        {
+          "vi": "Giữ nguyên hiện trạng của tổ chức",
+          "en": "Keeping the organization's status quo"
+        },
+        {
+          "vi": "Hỗ trợ cá nhân và tổ chức chuyển đổi sang trạng thái mong muốn",
+          "en": "Helping individuals and the organization transition to a desired state"
+        },
+        {
+          "vi": "Chỉ thay đổi logo công ty",
+          "en": "Only changing the company logo"
+        },
+        {
+          "vi": "Tăng số lượng cuộc họp",
+          "en": "Increasing the number of meetings"
+        }
       ],
       "correctIndex": 1,
-      "explanation": "Quản trị thay đổi là cách tiếp cận có hệ thống giúp con người và tổ chức chuyển đổi thành công."
+      "explanation": {
+        "vi": "Quản trị thay đổi là cách tiếp cận có hệ thống giúp con người và tổ chức chuyển đổi thành công.",
+        "en": "Change management is a systematic approach that helps people and the organization transition successfully."
+      }
     },
     {
       "id": "organization-q3",
-      "question": "Workforce Planning giúp tổ chức đạt được điều gì?",
+      "question": {
+        "vi": "Workforce Planning giúp tổ chức đạt được điều gì?",
+        "en": "What does Workforce Planning help the organization achieve?"
+      },
       "options": [
-        "Có đúng người, đúng kỹ năng, đúng số lượng, đúng thời điểm",
-        "Giảm chi phí marketing",
-        "Tăng giá cổ phiếu ngay lập tức",
-        "Loại bỏ hoàn toàn rủi ro kinh doanh"
+        {
+          "vi": "Có đúng người, đúng kỹ năng, đúng số lượng, đúng thời điểm",
+          "en": "Having the right people, skills, numbers and timing"
+        },
+        {
+          "vi": "Giảm chi phí marketing",
+          "en": "Reducing marketing costs"
+        },
+        {
+          "vi": "Tăng giá cổ phiếu ngay lập tức",
+          "en": "Instantly raising the share price"
+        },
+        {
+          "vi": "Loại bỏ hoàn toàn rủi ro kinh doanh",
+          "en": "Eliminating all business risk entirely"
+        }
       ],
       "correctIndex": 0,
-      "explanation": "Hoạch định nhân lực bảo đảm tổ chức có đúng người với đúng kỹ năng, số lượng và thời điểm cần thiết."
+      "explanation": {
+        "vi": "Hoạch định nhân lực bảo đảm tổ chức có đúng người với đúng kỹ năng, số lượng và thời điểm cần thiết.",
+        "en": "Workforce planning ensures the organization has the right people with the right skills, numbers and timing."
+      }
     },
     {
       "id": "organization-q4",
-      "question": "HR Technology (HRIS) chủ yếu được dùng để làm gì?",
+      "question": {
+        "vi": "HR Technology (HRIS) chủ yếu được dùng để làm gì?",
+        "en": "What is HR Technology (HRIS) mainly used for?"
+      },
       "options": [
-        "Thay thế toàn bộ nhân viên nhân sự",
-        "Nâng cao hiệu quả các chức năng nhân sự thông qua hệ thống và dữ liệu",
-        "Chỉ lưu trữ hồ sơ giấy",
-        "Quản lý kho hàng hóa"
+        {
+          "vi": "Thay thế toàn bộ nhân viên nhân sự",
+          "en": "Replacing all HR staff"
+        },
+        {
+          "vi": "Nâng cao hiệu quả các chức năng nhân sự thông qua hệ thống và dữ liệu",
+          "en": "Improving the effectiveness of HR functions through systems and data"
+        },
+        {
+          "vi": "Chỉ lưu trữ hồ sơ giấy",
+          "en": "Only storing paper records"
+        },
+        {
+          "vi": "Quản lý kho hàng hóa",
+          "en": "Managing a goods warehouse"
+        }
       ],
       "correctIndex": 1,
-      "explanation": "Công nghệ nhân sự giúp tối ưu các chức năng HR bằng hệ thống, dữ liệu và tự động hóa."
+      "explanation": {
+        "vi": "Công nghệ nhân sự giúp tối ưu các chức năng HR bằng hệ thống, dữ liệu và tự động hóa.",
+        "en": "HR technology optimizes HR functions through systems, data and automation."
+      }
     }
   ],
   "workplace": [
     {
       "id": "workplace-q1",
-      "question": "Corporate Social Responsibility (CSR) thể hiện điều gì?",
+      "question": {
+        "vi": "Corporate Social Responsibility (CSR) thể hiện điều gì?",
+        "en": "What does Corporate Social Responsibility (CSR) express?"
+      },
       "options": [
-        "Chỉ tối đa hóa lợi nhuận ngắn hạn",
-        "Cam kết hành động có đạo đức và đóng góp cho sự phát triển bền vững",
-        "Việc cắt giảm toàn bộ phúc lợi",
-        "Chiến dịch quảng cáo sản phẩm"
+        {
+          "vi": "Chỉ tối đa hóa lợi nhuận ngắn hạn",
+          "en": "Maximizing short-term profit only"
+        },
+        {
+          "vi": "Cam kết hành động có đạo đức và đóng góp cho sự phát triển bền vững",
+          "en": "A commitment to act ethically and contribute to sustainable development"
+        },
+        {
+          "vi": "Việc cắt giảm toàn bộ phúc lợi",
+          "en": "Cutting all benefits"
+        },
+        {
+          "vi": "Chiến dịch quảng cáo sản phẩm",
+          "en": "A product advertising campaign"
+        }
       ],
       "correctIndex": 1,
-      "explanation": "CSR là cam kết của tổ chức hành động có đạo đức và đóng góp tích cực cho cộng đồng, xã hội."
+      "explanation": {
+        "vi": "CSR là cam kết của tổ chức hành động có đạo đức và đóng góp tích cực cho cộng đồng, xã hội.",
+        "en": "CSR is an organization's commitment to act ethically and contribute positively to the community and society."
+      }
     },
     {
       "id": "workplace-q2",
-      "question": "Risk Management trong nhân sự bao gồm hoạt động nào?",
+      "question": {
+        "vi": "Risk Management trong nhân sự bao gồm hoạt động nào?",
+        "en": "What activity does Risk Management in HR include?"
+      },
       "options": [
-        "Nhận diện, đánh giá và kiểm soát rủi ro về con người và pháp lý",
-        "Chỉ tổ chức sự kiện nội bộ",
-        "Thiết kế logo thương hiệu",
-        "Đàm phán giá nguyên vật liệu"
+        {
+          "vi": "Nhận diện, đánh giá và kiểm soát rủi ro về con người và pháp lý",
+          "en": "Identifying, assessing and controlling people and legal risks"
+        },
+        {
+          "vi": "Chỉ tổ chức sự kiện nội bộ",
+          "en": "Only organizing internal events"
+        },
+        {
+          "vi": "Thiết kế logo thương hiệu",
+          "en": "Designing the brand logo"
+        },
+        {
+          "vi": "Đàm phán giá nguyên vật liệu",
+          "en": "Negotiating raw material prices"
+        }
       ],
       "correctIndex": 0,
-      "explanation": "Quản trị rủi ro gồm nhận diện, đánh giá và kiểm soát các rủi ro về con người, pháp lý và hoạt động."
+      "explanation": {
+        "vi": "Quản trị rủi ro gồm nhận diện, đánh giá và kiểm soát các rủi ro về con người, pháp lý và hoạt động.",
+        "en": "Risk management involves identifying, assessing and controlling people, legal and operational risks."
+      }
     },
     {
       "id": "workplace-q3",
-      "question": "Vì sao tuân thủ Employment Law lại quan trọng với tổ chức?",
+      "question": {
+        "vi": "Vì sao tuân thủ Employment Law lại quan trọng với tổ chức?",
+        "en": "Why is complying with Employment Law important for an organization?"
+      },
       "options": [
-        "Để tăng doanh thu quảng cáo",
-        "Để giảm rủi ro pháp lý và bảo vệ quyền lợi của tổ chức lẫn nhân viên",
-        "Để thay thế quy trình tuyển dụng",
-        "Để loại bỏ nhu cầu đào tạo"
+        {
+          "vi": "Để tăng doanh thu quảng cáo",
+          "en": "To increase advertising revenue"
+        },
+        {
+          "vi": "Để giảm rủi ro pháp lý và bảo vệ quyền lợi của tổ chức lẫn nhân viên",
+          "en": "To reduce legal risk and protect both the organization's and employees' interests"
+        },
+        {
+          "vi": "Để thay thế quy trình tuyển dụng",
+          "en": "To replace the recruiting process"
+        },
+        {
+          "vi": "Để loại bỏ nhu cầu đào tạo",
+          "en": "To eliminate the need for training"
+        }
       ],
       "correctIndex": 1,
-      "explanation": "Tuân thủ luật lao động giúp tổ chức giảm rủi ro pháp lý và bảo vệ quyền lợi của cả hai bên."
+      "explanation": {
+        "vi": "Tuân thủ luật lao động giúp tổ chức giảm rủi ro pháp lý và bảo vệ quyền lợi của cả hai bên.",
+        "en": "Complying with employment law helps the organization reduce legal risk and protect both parties' interests."
+      }
     },
     {
       "id": "workplace-q4",
-      "question": "Diversity, Equity & Inclusion tại nơi làm việc hướng tới điều gì?",
+      "question": {
+        "vi": "Diversity, Equity & Inclusion tại nơi làm việc hướng tới điều gì?",
+        "en": "What does Diversity, Equity & Inclusion aim for in the workplace?"
+      },
       "options": [
-        "Môi trường tôn trọng đa dạng, công bằng cơ hội và hòa nhập",
-        "Chỉ tuyển dụng một nhóm nhân khẩu học",
-        "Giảm tính minh bạch trong lương",
-        "Hạn chế giao tiếp giữa các phòng ban"
+        {
+          "vi": "Môi trường tôn trọng đa dạng, công bằng cơ hội và hòa nhập",
+          "en": "An environment that respects diversity, ensures equal opportunity and inclusion"
+        },
+        {
+          "vi": "Chỉ tuyển dụng một nhóm nhân khẩu học",
+          "en": "Hiring only one demographic group"
+        },
+        {
+          "vi": "Giảm tính minh bạch trong lương",
+          "en": "Reducing pay transparency"
+        },
+        {
+          "vi": "Hạn chế giao tiếp giữa các phòng ban",
+          "en": "Limiting communication between departments"
+        }
       ],
       "correctIndex": 0,
-      "explanation": "DEI hướng tới môi trường tôn trọng sự đa dạng, bảo đảm công bằng về cơ hội và sự hòa nhập của mọi nhân viên."
+      "explanation": {
+        "vi": "DEI hướng tới môi trường tôn trọng sự đa dạng, bảo đảm công bằng về cơ hội và sự hòa nhập của mọi nhân viên.",
+        "en": "DEI aims for an environment that respects diversity, ensures equal opportunity and the inclusion of all employees."
+      }
     }
   ],
   "leadership": [
     {
       "id": "leadership-q1",
-      "question": "Năng lực 'Leadership & Navigation' thể hiện điều gì?",
+      "question": {
+        "vi": "Năng lực 'Leadership & Navigation' thể hiện điều gì?",
+        "en": "What does the 'Leadership & Navigation' competency represent?"
+      },
       "options": [
-        "Khả năng dẫn dắt và điều hướng tổ chức qua các quy trình để đạt mục tiêu",
-        "Kỹ năng lập trình phần mềm",
-        "Việc tính toán bảng lương",
-        "Quản lý kho vật tư"
+        {
+          "vi": "Khả năng dẫn dắt và điều hướng tổ chức qua các quy trình để đạt mục tiêu",
+          "en": "The ability to lead and navigate the organization through processes to reach goals"
+        },
+        {
+          "vi": "Kỹ năng lập trình phần mềm",
+          "en": "Software programming skills"
+        },
+        {
+          "vi": "Việc tính toán bảng lương",
+          "en": "Calculating payroll"
+        },
+        {
+          "vi": "Quản lý kho vật tư",
+          "en": "Managing a supplies warehouse"
+        }
       ],
       "correctIndex": 0,
-      "explanation": "Leadership & Navigation là năng lực dẫn dắt, tạo tầm nhìn và điều hướng tổ chức qua hệ thống, quy trình."
+      "explanation": {
+        "vi": "Leadership & Navigation là năng lực dẫn dắt, tạo tầm nhìn và điều hướng tổ chức qua hệ thống, quy trình.",
+        "en": "Leadership & Navigation is the ability to lead, set a vision and navigate the organization through systems and processes."
+      }
     },
     {
       "id": "leadership-q2",
-      "question": "Ethical Practice nhấn mạnh yếu tố nào?",
+      "question": {
+        "vi": "Ethical Practice nhấn mạnh yếu tố nào?",
+        "en": "What does Ethical Practice emphasize?"
+      },
       "options": [
-        "Tối đa hóa lợi nhuận bằng mọi giá",
-        "Duy trì tính chính trực, giá trị cốt lõi và trách nhiệm giải trình",
-        "Bỏ qua các quy định nội bộ",
-        "Ưu tiên lợi ích cá nhân của lãnh đạo"
+        {
+          "vi": "Tối đa hóa lợi nhuận bằng mọi giá",
+          "en": "Maximizing profit at any cost"
+        },
+        {
+          "vi": "Duy trì tính chính trực, giá trị cốt lõi và trách nhiệm giải trình",
+          "en": "Upholding integrity, core values and accountability"
+        },
+        {
+          "vi": "Bỏ qua các quy định nội bộ",
+          "en": "Ignoring internal policies"
+        },
+        {
+          "vi": "Ưu tiên lợi ích cá nhân của lãnh đạo",
+          "en": "Prioritizing leaders' personal interests"
+        }
       ],
       "correctIndex": 1,
-      "explanation": "Ethical Practice tập trung vào tính chính trực, giá trị cốt lõi và trách nhiệm giải trình trong tổ chức."
+      "explanation": {
+        "vi": "Ethical Practice tập trung vào tính chính trực, giá trị cốt lõi và trách nhiệm giải trình trong tổ chức.",
+        "en": "Ethical Practice focuses on integrity, core values and accountability within the organization."
+      }
     },
     {
       "id": "leadership-q3",
-      "question": "Hai năng lực thuộc nhóm Leadership trong SHRM BASK là gì?",
+      "question": {
+        "vi": "Hai năng lực thuộc nhóm Leadership trong SHRM BASK là gì?",
+        "en": "What are the two competencies in the Leadership cluster of the SHRM BASK?"
+      },
       "options": [
-        "Communication và Global Mindset",
-        "Business Acumen và Consultation",
-        "Leadership & Navigation và Ethical Practice",
-        "Relationship Management và Critical Evaluation"
+        {
+          "vi": "Communication và Global Mindset",
+          "en": "Communication and Global Mindset"
+        },
+        {
+          "vi": "Business Acumen và Consultation",
+          "en": "Business Acumen and Consultation"
+        },
+        {
+          "vi": "Leadership & Navigation và Ethical Practice",
+          "en": "Leadership & Navigation and Ethical Practice"
+        },
+        {
+          "vi": "Relationship Management và Critical Evaluation",
+          "en": "Relationship Management and Critical Evaluation"
+        }
       ],
       "correctIndex": 2,
-      "explanation": "Nhóm Leadership gồm hai năng lực: Leadership & Navigation và Ethical Practice."
+      "explanation": {
+        "vi": "Nhóm Leadership gồm hai năng lực: Leadership & Navigation và Ethical Practice.",
+        "en": "The Leadership cluster comprises two competencies: Leadership & Navigation and Ethical Practice."
+      }
     }
   ],
   "interpersonal": [
     {
       "id": "interpersonal-q1",
-      "question": "Relationship Management bao gồm kỹ năng nào?",
+      "question": {
+        "vi": "Relationship Management bao gồm kỹ năng nào?",
+        "en": "What skills does Relationship Management include?"
+      },
       "options": [
-        "Xây dựng mạng lưới quan hệ, làm việc nhóm và quản lý xung đột",
-        "Lập báo cáo tài chính",
-        "Thiết kế hệ thống máy chủ",
-        "Phân tích dữ liệu lớn"
+        {
+          "vi": "Xây dựng mạng lưới quan hệ, làm việc nhóm và quản lý xung đột",
+          "en": "Building networks, teamwork and conflict management"
+        },
+        {
+          "vi": "Lập báo cáo tài chính",
+          "en": "Preparing financial reports"
+        },
+        {
+          "vi": "Thiết kế hệ thống máy chủ",
+          "en": "Designing server systems"
+        },
+        {
+          "vi": "Phân tích dữ liệu lớn",
+          "en": "Analyzing big data"
+        }
       ],
       "correctIndex": 0,
-      "explanation": "Relationship Management gồm xây dựng quan hệ, làm việc nhóm và quản lý xung đột hiệu quả."
+      "explanation": {
+        "vi": "Relationship Management gồm xây dựng quan hệ, làm việc nhóm và quản lý xung đột hiệu quả.",
+        "en": "Relationship Management includes building relationships, teamwork and effective conflict management."
+      }
     },
     {
       "id": "interpersonal-q2",
-      "question": "Global Mindset đề cập đến năng lực gì?",
+      "question": {
+        "vi": "Global Mindset đề cập đến năng lực gì?",
+        "en": "What ability does Global Mindset refer to?"
+      },
       "options": [
-        "Chỉ làm việc với một nền văn hóa duy nhất",
-        "Đánh giá cao và tôn trọng sự khác biệt văn hóa để làm việc hiệu quả",
-        "Tránh giao tiếp quốc tế",
-        "Chuẩn hóa mọi quy trình toàn cầu giống nhau"
+        {
+          "vi": "Chỉ làm việc với một nền văn hóa duy nhất",
+          "en": "Working with only one culture"
+        },
+        {
+          "vi": "Đánh giá cao và tôn trọng sự khác biệt văn hóa để làm việc hiệu quả",
+          "en": "Valuing and respecting cultural differences to work effectively"
+        },
+        {
+          "vi": "Tránh giao tiếp quốc tế",
+          "en": "Avoiding international communication"
+        },
+        {
+          "vi": "Chuẩn hóa mọi quy trình toàn cầu giống nhau",
+          "en": "Standardizing all global processes identically"
+        }
       ],
       "correctIndex": 1,
-      "explanation": "Global Mindset là năng lực tôn trọng và tận dụng sự đa dạng văn hóa trong môi trường toàn cầu."
+      "explanation": {
+        "vi": "Global Mindset là năng lực tôn trọng và tận dụng sự đa dạng văn hóa trong môi trường toàn cầu.",
+        "en": "Global Mindset is the ability to respect and leverage cultural diversity in a global environment."
+      }
     },
     {
       "id": "interpersonal-q3",
-      "question": "Năng lực nào sau đây thuộc nhóm Interpersonal của SHRM BASK?",
+      "question": {
+        "vi": "Năng lực nào sau đây thuộc nhóm Interpersonal của SHRM BASK?",
+        "en": "Which competency belongs to the Interpersonal cluster of the SHRM BASK?"
+      },
       "options": [
-        "Analytical Aptitude",
-        "Communication",
-        "Ethical Practice",
-        "Business Acumen"
+        {
+          "vi": "Analytical Aptitude",
+          "en": "Analytical Aptitude"
+        },
+        {
+          "vi": "Communication",
+          "en": "Communication"
+        },
+        {
+          "vi": "Ethical Practice",
+          "en": "Ethical Practice"
+        },
+        {
+          "vi": "Business Acumen",
+          "en": "Business Acumen"
+        }
       ],
       "correctIndex": 1,
-      "explanation": "Communication thuộc nhóm Interpersonal, cùng với Relationship Management, Global Mindset và DEI."
+      "explanation": {
+        "vi": "Communication thuộc nhóm Interpersonal, cùng với Relationship Management, Global Mindset và DEI.",
+        "en": "Communication is in the Interpersonal cluster, along with Relationship Management, Global Mindset and DEI."
+      }
     }
   ],
   "business": [
     {
       "id": "business-q1",
-      "question": "Business Acumen giúp người làm nhân sự điều gì?",
+      "question": {
+        "vi": "Business Acumen giúp người làm nhân sự điều gì?",
+        "en": "What does Business Acumen help HR practitioners do?"
+      },
       "options": [
-        "Hiểu hoạt động kinh doanh và liên kết HR với mục tiêu tổ chức",
-        "Chỉ xử lý thủ tục hành chính",
-        "Thay thế bộ phận kế toán",
-        "Bỏ qua chiến lược doanh nghiệp"
+        {
+          "vi": "Hiểu hoạt động kinh doanh và liên kết HR với mục tiêu tổ chức",
+          "en": "Understand the business and link HR to organizational goals"
+        },
+        {
+          "vi": "Chỉ xử lý thủ tục hành chính",
+          "en": "Only handle administrative paperwork"
+        },
+        {
+          "vi": "Thay thế bộ phận kế toán",
+          "en": "Replace the accounting department"
+        },
+        {
+          "vi": "Bỏ qua chiến lược doanh nghiệp",
+          "en": "Ignore business strategy"
+        }
       ],
       "correctIndex": 0,
-      "explanation": "Business Acumen là năng lực hiểu kinh doanh, tài chính, vận hành để gắn chiến lược nhân sự với mục tiêu tổ chức."
+      "explanation": {
+        "vi": "Business Acumen là năng lực hiểu kinh doanh, tài chính, vận hành để gắn chiến lược nhân sự với mục tiêu tổ chức.",
+        "en": "Business Acumen is the ability to understand business, finance and operations to align HR strategy with organizational goals."
+      }
     },
     {
       "id": "business-q2",
-      "question": "Analytical Aptitude liên quan nhiều nhất đến hoạt động nào?",
+      "question": {
+        "vi": "Analytical Aptitude liên quan nhiều nhất đến hoạt động nào?",
+        "en": "Which activity is Analytical Aptitude most related to?"
+      },
       "options": [
-        "Thu thập, diễn giải và dùng dữ liệu để hỗ trợ ra quyết định",
-        "Thiết kế giao diện website",
-        "Tổ chức tiệc công ty",
-        "Soạn thảo hợp đồng thuê văn phòng"
+        {
+          "vi": "Thu thập, diễn giải và dùng dữ liệu để hỗ trợ ra quyết định",
+          "en": "Gathering, interpreting and using data to support decisions"
+        },
+        {
+          "vi": "Thiết kế giao diện website",
+          "en": "Designing a website interface"
+        },
+        {
+          "vi": "Tổ chức tiệc công ty",
+          "en": "Organizing a company party"
+        },
+        {
+          "vi": "Soạn thảo hợp đồng thuê văn phòng",
+          "en": "Drafting an office lease"
+        }
       ],
       "correctIndex": 0,
-      "explanation": "Analytical Aptitude là năng lực thu thập, diễn giải và sử dụng dữ liệu để ra quyết định dựa trên bằng chứng."
+      "explanation": {
+        "vi": "Analytical Aptitude là năng lực thu thập, diễn giải và sử dụng dữ liệu để ra quyết định dựa trên bằng chứng.",
+        "en": "Analytical Aptitude is the ability to gather, interpret and use data to make evidence-based decisions."
+      }
     },
     {
       "id": "business-q3",
-      "question": "Consultation trong SHRM BASK được hiểu là gì?",
+      "question": {
+        "vi": "Consultation trong SHRM BASK được hiểu là gì?",
+        "en": "How is Consultation understood in the SHRM BASK?"
+      },
       "options": [
-        "Chỉ ban hành mệnh lệnh cho nhân viên",
-        "Tư vấn và đưa giải pháp nhân sự cho các bên liên quan",
-        "Giám sát camera an ninh",
-        "Quản lý lịch bảo trì máy móc"
+        {
+          "vi": "Chỉ ban hành mệnh lệnh cho nhân viên",
+          "en": "Only issuing orders to employees"
+        },
+        {
+          "vi": "Tư vấn và đưa giải pháp nhân sự cho các bên liên quan",
+          "en": "Advising and providing HR solutions to stakeholders"
+        },
+        {
+          "vi": "Giám sát camera an ninh",
+          "en": "Monitoring security cameras"
+        },
+        {
+          "vi": "Quản lý lịch bảo trì máy móc",
+          "en": "Managing a machinery maintenance schedule"
+        }
       ],
       "correctIndex": 1,
-      "explanation": "Consultation là năng lực tư vấn, hướng dẫn và cung cấp giải pháp nhân sự cho các bên liên quan trong tổ chức."
+      "explanation": {
+        "vi": "Consultation là năng lực tư vấn, hướng dẫn và cung cấp giải pháp nhân sự cho các bên liên quan trong tổ chức.",
+        "en": "Consultation is the ability to advise, guide and provide HR solutions to stakeholders in the organization."
+      }
     }
   ]
 }

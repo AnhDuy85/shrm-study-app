@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import type { Flashcard, GroupId } from '../types';
 import { useAppState } from '../state/StateProvider';
+import { useLanguage } from '../state/LanguageProvider';
+import { tc } from '../i18n/helpers';
 import ProgressBar from './ProgressBar';
 
 interface FlashcardDeckProps {
@@ -10,11 +12,12 @@ interface FlashcardDeckProps {
 
 export default function FlashcardDeck({ group, cards }: FlashcardDeckProps) {
   const { state, setCardState } = useAppState();
+  const { lang, t } = useLanguage();
   const [index, setIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
 
   if (cards.length === 0) {
-    return <p className="text-sm text-gray-600">Chưa có thẻ ghi nhớ nào.</p>;
+    return <p className="text-sm text-gray-600">{t('fc.empty')}</p>;
   }
 
   const card = cards[index];
@@ -39,15 +42,19 @@ export default function FlashcardDeck({ group, cards }: FlashcardDeckProps) {
     <div className="space-y-4">
       <div className="flex items-center justify-between gap-4">
         <span className="text-sm text-gray-600">
-          Thẻ {index + 1} / {cards.length}
+          {t('fc.counter')
+            .replace('{n}', String(index + 1))
+            .replace('{total}', String(cards.length))}
         </span>
         <span className="text-sm text-gray-600">
-          Đã ôn: {reviewedCount} / {cards.length}
+          {t('fc.reviewed')
+            .replace('{n}', String(reviewedCount))
+            .replace('{total}', String(cards.length))}
         </span>
       </div>
       <ProgressBar
         value={(reviewedCount / cards.length) * 100}
-        label="Tiến độ ôn thẻ ghi nhớ"
+        label={t('fc.progressLabel')}
       />
 
       {/* Flip card */}
@@ -56,31 +63,27 @@ export default function FlashcardDeck({ group, cards }: FlashcardDeckProps) {
         onClick={() => setFlipped((f) => !f)}
         onKeyDown={handleFlipKey}
         aria-pressed={flipped}
-        aria-label={
-          flipped
-            ? `Mặt sau của thẻ: ${card.term}. Nhấn để lật lại.`
-            : `Mặt trước của thẻ: ${card.term}. Nhấn để xem định nghĩa.`
-        }
+        aria-label={t(
+          flipped ? 'fc.flipBackAria' : 'fc.flipFrontAria',
+        ).replace('{term}', card.term)}
         className="flex min-h-[200px] w-full flex-col items-center justify-center rounded-xl border-2 border-indigo-200 bg-white p-6 text-center shadow-sm transition hover:border-indigo-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500"
       >
         <span className="mb-2 text-xs font-semibold uppercase tracking-wide text-indigo-500">
-          {flipped ? 'Định nghĩa' : 'Thuật ngữ'}
+          {flipped ? t('fc.back') : t('fc.front')}
         </span>
         <span
           className={flipped ? 'text-base text-gray-800' : 'text-xl font-bold text-gray-900'}
         >
-          {flipped ? card.definition : card.term}
+          {flipped ? tc(card.definition, lang) : card.term}
         </span>
-        <span className="mt-4 text-xs text-gray-400">
-          Nhấn (hoặc Enter / Space) để lật thẻ
-        </span>
+        <span className="mt-4 text-xs text-gray-400">{t('fc.flipHint')}</span>
       </button>
 
       {/* Known / learning */}
       <div
         className="flex flex-wrap gap-2"
         role="group"
-        aria-label="Đánh dấu mức độ thuộc thẻ"
+        aria-label={t('fc.levelGroupAria')}
       >
         <button
           type="button"
@@ -92,7 +95,7 @@ export default function FlashcardDeck({ group, cards }: FlashcardDeckProps) {
               : 'border border-green-600 text-green-700 hover:bg-green-50'
           }`}
         >
-          Đã thuộc
+          {t('fc.known')}
         </button>
         <button
           type="button"
@@ -104,7 +107,7 @@ export default function FlashcardDeck({ group, cards }: FlashcardDeckProps) {
               : 'border border-amber-500 text-amber-700 hover:bg-amber-50'
           }`}
         >
-          Đang học
+          {t('fc.learning')}
         </button>
       </div>
 
@@ -116,7 +119,7 @@ export default function FlashcardDeck({ group, cards }: FlashcardDeckProps) {
           disabled={index <= 0}
           className="rounded-md border border-gray-300 px-4 py-2 text-sm hover:bg-gray-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 disabled:opacity-40"
         >
-          ‹ Thẻ trước
+          {t('fc.prev')}
         </button>
         <button
           type="button"
@@ -124,7 +127,7 @@ export default function FlashcardDeck({ group, cards }: FlashcardDeckProps) {
           disabled={index >= cards.length - 1}
           className="rounded-md border border-gray-300 px-4 py-2 text-sm hover:bg-gray-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 disabled:opacity-40"
         >
-          Thẻ sau ›
+          {t('fc.next')}
         </button>
       </div>
     </div>
