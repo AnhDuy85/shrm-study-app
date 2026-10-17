@@ -7,15 +7,12 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "postinstall": "node scripts/copy-pdf-worker.mjs",
-    "prebuild": "node scripts/copy-pdf-worker.mjs"
+    "check-data": "node scripts/check-data.mjs"
   },
   "dependencies": {
     "mermaid": "11.4.1",
-    "pdfjs-dist": "4.8.69",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "react-pdf": "9.2.1",
     "react-router-dom": "6.30.6"
   },
   "devDependencies": {

@@ -1,593 +1,170 @@
 {
   "people": {
     "objectives": [
-      {
-        "vi": "Mô tả vòng đời nhân sự (employee lifecycle) và vai trò của HR ở từng giai đoạn.",
-        "en": "Describe the employee lifecycle and HR's role at each stage."
-      },
-      {
-        "vi": "Phân biệt Talent Acquisition (thu hút, tuyển dụng) với Employee Engagement & Retention (gắn kết, giữ chân).",
-        "en": "Distinguish Talent Acquisition (attracting and hiring) from Employee Engagement & Retention."
-      },
-      {
-        "vi": "Trình bày các thành phần của Total Rewards (lương, thưởng, phúc lợi, đãi ngộ phi tiền).",
-        "en": "Explain the components of Total Rewards (pay, bonuses, benefits, non-monetary rewards)."
-      },
-      {
-        "vi": "Giải thích vai trò của Performance Management liên tục trong việc gắn kết đóng góp cá nhân với mục tiêu tổ chức.",
-        "en": "Explain how continuous Performance Management aligns individual contribution with organizational goals."
-      },
-      {
-        "vi": "Nhận diện cách Learning & Development xây dựng năng lực và lộ trình nghề nghiệp cho nhân viên.",
-        "en": "Identify how Learning & Development builds employee capability and career paths."
-      }
+      { "vi": "Giải thích vai trò của HR Strategic Planning trong việc gắn chiến lược nhân sự với mục tiêu tổ chức.", "en": "Explain the role of HR Strategic Planning in aligning people strategy with organizational goals." },
+      { "vi": "Mô tả quy trình Talent Acquisition: tạo nguồn, tuyển mộ và lựa chọn ứng viên phù hợp.", "en": "Describe the Talent Acquisition process: sourcing, recruiting and selecting the right candidates." },
+      { "vi": "Phân tích các yếu tố thúc đẩy Employee Engagement & Retention và cách giảm turnover.", "en": "Analyze the drivers of Employee Engagement & Retention and how to reduce turnover." },
+      { "vi": "Trình bày cách Learning & Development xây dựng năng lực và lộ trình nghề nghiệp.", "en": "Explain how Learning & Development builds capability and career paths." },
+      { "vi": "Trình bày các thành phần của Total Rewards (lương, phúc lợi, đãi ngộ phi tiền tệ).", "en": "Explain the components of Total Rewards (pay, benefits, non-monetary rewards)." },
+      { "vi": "Giải thích vai trò của Performance Management liên tục trong việc gắn đóng góp cá nhân với mục tiêu tổ chức.", "en": "Explain how continuous Performance Management aligns individual contribution with organizational goals." }
     ],
     "keyPoints": [
-      {
-        "term": "Talent Acquisition",
-        "detail": {
-          "vi": "Chiến lược tạo nguồn (sourcing), tuyển mộ (recruiting) và lựa chọn (selection) ứng viên nhằm đáp ứng nhu cầu nhân lực hiện tại và tương lai của tổ chức.",
-          "en": "The strategy of sourcing, recruiting and selecting candidates to meet the organization's current and future workforce needs."
-        }
-      },
-      {
-        "term": "Employee Engagement & Retention",
-        "detail": {
-          "vi": "Mức độ cam kết, gắn bó của nhân viên cùng các hoạt động giữ chân nhằm giảm tỷ lệ nghỉ việc (turnover) và duy trì nhân tài.",
-          "en": "Employees' level of commitment and the retention activities that reduce turnover and keep talent."
-        }
-      },
-      {
-        "term": "Learning & Development",
-        "detail": {
-          "vi": "Các hoạt động phát triển kiến thức, kỹ năng, năng lực của nhân viên: đào tạo, coaching, mentoring và phát triển nghề nghiệp.",
-          "en": "Activities that develop employees' knowledge, skills and abilities: training, coaching, mentoring and career development."
-        }
-      },
-      {
-        "term": "Total Rewards",
-        "detail": {
-          "vi": "Tổng thể đãi ngộ gồm lương (compensation), phúc lợi (benefits) và phần thưởng phi tiền (recognition, phát triển, môi trường làm việc) dùng để thu hút và giữ chân nhân viên.",
-          "en": "The full package of compensation, benefits and non-monetary rewards (recognition, development, work environment) used to attract and retain employees."
-        }
-      },
-      {
-        "term": "Performance Management",
-        "detail": {
-          "vi": "Quy trình liên tục thiết lập mục tiêu, theo dõi, phản hồi và đánh giá hiệu suất để gắn kết đóng góp cá nhân với chiến lược tổ chức.",
-          "en": "A continuous process of setting goals, monitoring, giving feedback and evaluating performance to align individual contribution with organizational strategy."
-        }
-      },
-      {
-        "term": "Employee Value Proposition (EVP)",
-        "detail": {
-          "vi": "Tập hợp giá trị mà tổ chức mang lại cho nhân viên để đổi lấy kỹ năng, năng lực và trải nghiệm của họ; nền tảng của thương hiệu nhà tuyển dụng.",
-          "en": "The set of value an organization offers employees in exchange for their skills, abilities and experience; the foundation of the employer brand."
-        }
-      }
+      { "term": "HR Strategic Planning", "detail": { "vi": "Quá trình xác định nhu cầu nhân lực hiện tại và tương lai rồi gắn chúng với chiến lược tổ chức để bảo đảm đúng người, đúng kỹ năng, đúng thời điểm.", "en": "The process of identifying current and future workforce needs and aligning them with organizational strategy to ensure the right people, skills and timing." } },
+      { "term": "Talent Acquisition", "detail": { "vi": "Chiến lược tạo nguồn (sourcing), tuyển mộ (recruiting) và lựa chọn (selection) ứng viên nhằm đáp ứng nhu cầu nhân lực của tổ chức.", "en": "The strategy of sourcing, recruiting and selecting candidates to meet the organization's workforce needs." } },
+      { "term": "Employee Engagement & Retention", "detail": { "vi": "Mức độ cam kết, gắn bó của nhân viên cùng các hoạt động giữ chân nhằm giảm tỷ lệ nghỉ việc (turnover) và duy trì nhân tài.", "en": "Employees' level of commitment and the retention activities that reduce turnover and keep talent." } },
+      { "term": "Learning & Development", "detail": { "vi": "Các hoạt động phát triển kiến thức, kỹ năng và năng lực của nhân viên: đào tạo, coaching, mentoring và phát triển nghề nghiệp.", "en": "Activities that develop employees' knowledge, skills and abilities: training, coaching, mentoring and career development." } },
+      { "term": "Total Rewards", "detail": { "vi": "Tổng thể đãi ngộ gồm lương (compensation), phúc lợi (benefits) và phần thưởng phi tiền tệ (ghi nhận, phát triển, môi trường làm việc) dùng để thu hút và giữ chân nhân viên.", "en": "The full package of compensation, benefits and non-monetary rewards (recognition, development, work environment) used to attract and retain employees." } },
+      { "term": "Performance Management", "detail": { "vi": "Quy trình liên tục thiết lập mục tiêu, theo dõi, phản hồi và đánh giá hiệu suất để gắn đóng góp cá nhân với chiến lược tổ chức.", "en": "A continuous process of setting goals, monitoring, giving feedback and evaluating performance to align individual contribution with organizational strategy." } }
     ],
     "diagram": {
-      "vi": "graph TD\n  P[People] --> TA[Talent Acquisition]\n  P --> EN[Engagement & Retention]\n  P --> LD[Learning & Development]\n  P --> TR[Total Rewards]\n  P --> PM[Performance Management]",
-      "en": "graph TD\n  P[People] --> TA[Talent Acquisition]\n  P --> EN[Engagement & Retention]\n  P --> LD[Learning & Development]\n  P --> TR[Total Rewards]\n  P --> PM[Performance Management]"
+      "vi": "graph TD\n  P[People] --> SP[HR Strategic Planning]\n  P --> TA[Talent Acquisition]\n  P --> EN[Engagement & Retention]\n  P --> LD[Learning & Development]\n  P --> TR[Total Rewards]\n  P --> PM[Performance Management]",
+      "en": "graph TD\n  P[People] --> SP[HR Strategic Planning]\n  P --> TA[Talent Acquisition]\n  P --> EN[Engagement & Retention]\n  P --> LD[Learning & Development]\n  P --> TR[Total Rewards]\n  P --> PM[Performance Management]"
     },
     "applications": [
-      {
-        "title": {
-          "vi": "Tối ưu onboarding để giảm nghỉ việc sớm",
-          "en": "Optimize onboarding to reduce early turnover"
-        },
-        "description": {
-          "vi": "Thiết kế chương trình hội nhập 90 ngày có mentor và mốc kiểm tra, giúp nhân viên mới hòa nhập nhanh và giảm turnover trong giai đoạn đầu.",
-          "en": "Design a 90-day onboarding program with a mentor and checkpoints so new hires integrate quickly and early turnover drops."
-        }
-      },
-      {
-        "title": {
-          "vi": "Thiết kế gói Total Rewards cạnh tranh",
-          "en": "Design a competitive Total Rewards package"
-        },
-        "description": {
-          "vi": "Khảo sát thị trường lương và kết hợp phúc lợi linh hoạt với phần thưởng phi tiền để thu hút và giữ chân nhân tài trọng yếu.",
-          "en": "Benchmark market pay and combine flexible benefits with non-monetary rewards to attract and retain key talent."
-        }
-      },
-      {
-        "title": {
-          "vi": "Triển khai đánh giá hiệu suất liên tục",
-          "en": "Implement continuous performance reviews"
-        },
-        "description": {
-          "vi": "Thay chu kỳ đánh giá một lần/năm bằng check-in định kỳ và phản hồi thường xuyên để gắn mục tiêu cá nhân với mục tiêu tổ chức.",
-          "en": "Replace the once-a-year review with regular check-ins and ongoing feedback to align individual and organizational goals."
-        }
-      }
+      { "title": { "vi": "Tối ưu onboarding để giảm nghỉ việc sớm", "en": "Optimize onboarding to reduce early turnover" }, "description": { "vi": "Thiết kế chương trình hội nhập 90 ngày có mentor và mốc kiểm tra, giúp nhân viên mới hòa nhập nhanh và giảm turnover giai đoạn đầu.", "en": "Design a 90-day onboarding program with a mentor and checkpoints so new hires integrate quickly and early turnover drops." } },
+      { "title": { "vi": "Thiết kế gói Total Rewards cạnh tranh", "en": "Design a competitive Total Rewards package" }, "description": { "vi": "Khảo sát thị trường lương và kết hợp phúc lợi linh hoạt với phần thưởng phi tiền tệ để thu hút và giữ chân nhân tài trọng yếu.", "en": "Benchmark market pay and combine flexible benefits with non-monetary rewards to attract and retain key talent." } },
+      { "title": { "vi": "Triển khai đánh giá hiệu suất liên tục", "en": "Implement continuous performance reviews" }, "description": { "vi": "Thay chu kỳ đánh giá một lần/năm bằng check-in định kỳ và phản hồi thường xuyên để gắn mục tiêu cá nhân với mục tiêu tổ chức.", "en": "Replace the once-a-year review with regular check-ins and ongoing feedback to align individual and organizational goals." } },
+      { "title": { "vi": "Xây dựng lộ trình Learning & Development", "en": "Build a Learning & Development path" }, "description": { "vi": "Phân tích khoảng cách năng lực và thiết kế lộ trình đào tạo, coaching gắn với kế hoạch kế nhiệm để phát triển nhân tài nội bộ.", "en": "Analyze capability gaps and design a training and coaching path tied to succession planning to grow internal talent." } }
     ]
   },
   "organization": {
     "objectives": [
-      {
-        "vi": "Nhận diện các kiểu Organizational Structure (chức năng, bộ phận, ma trận) và ảnh hưởng của chúng tới HR.",
-        "en": "Identify types of organizational structure (functional, divisional, matrix) and their impact on HR."
-      },
-      {
-        "vi": "Giải thích vai trò của Organizational Culture đối với hiệu quả và hành vi tổ chức.",
-        "en": "Explain the role of organizational culture in organizational effectiveness and behavior."
-      },
-      {
-        "vi": "Mô tả quy trình Change Management để dẫn dắt tổ chức qua thay đổi.",
-        "en": "Describe the change management process for leading the organization through change."
-      },
-      {
-        "vi": "Trình bày các nguyên tắc Workforce Management và Employee & Labor Relations.",
-        "en": "Explain the principles of workforce management and employee & labor relations."
-      },
-      {
-        "vi": "Phân tích vai trò của Technology & Data trong vận hành chức năng HR.",
-        "en": "Analyze the role of technology and data in operating the HR function."
-      }
+      { "vi": "Mô tả cách thiết kế Structure of the HR Function để hỗ trợ tổ chức hiệu quả.", "en": "Describe how to design the Structure of the HR Function to support the organization effectively." },
+      { "vi": "Giải thích Organizational Effectiveness & Development và vai trò của HR trong cải thiện hiệu quả.", "en": "Explain Organizational Effectiveness & Development and HR's role in improving effectiveness." },
+      { "vi": "Trình bày các nguyên tắc Workforce Management (hoạch định và điều phối lực lượng lao động).", "en": "Explain the principles of Workforce Management (planning and coordinating the workforce)." },
+      { "vi": "Mô tả cách quản lý Employee & Labor Relations để duy trì môi trường công bằng.", "en": "Describe how to manage Employee & Labor Relations to maintain a fair environment." },
+      { "vi": "Phân tích vai trò của Technology Management (HRIS, dữ liệu) trong vận hành chức năng HR.", "en": "Analyze the role of Technology Management (HRIS, data) in operating the HR function." },
+      { "vi": "Áp dụng quy trình Change Management để dẫn dắt tổ chức qua thay đổi.", "en": "Apply the Change Management process to lead the organization through change." }
     ],
     "keyPoints": [
-      {
-        "term": "Organizational Structure",
-        "detail": {
-          "vi": "Cách tổ chức phân chia công việc, quyền hạn và báo cáo (chức năng, bộ phận, ma trận); định hình cách HR hỗ trợ các đơn vị.",
-          "en": "How an organization divides work, authority and reporting lines (functional, divisional, matrix); it shapes how HR supports each unit."
-        }
-      },
-      {
-        "term": "Organizational Culture",
-        "detail": {
-          "vi": "Hệ thống giá trị, niềm tin và chuẩn mực chung chi phối hành vi nhân viên và ảnh hưởng tới organizational effectiveness.",
-          "en": "The shared system of values, beliefs and norms that governs employee behavior and influences organizational effectiveness."
-        }
-      },
-      {
-        "term": "Change Management",
-        "detail": {
-          "vi": "Phương pháp có hệ thống để chuẩn bị, hỗ trợ và giúp cá nhân, đội nhóm, tổ chức chuyển đổi từ trạng thái hiện tại sang trạng thái mong muốn.",
-          "en": "A systematic approach to preparing, supporting and helping individuals, teams and organizations move from a current to a desired state."
-        }
-      },
-      {
-        "term": "Workforce Management",
-        "detail": {
-          "vi": "Hoạch định và điều phối lực lượng lao động (workforce planning, staffing) để đáp ứng nhu cầu kinh doanh đúng số lượng và kỹ năng.",
-          "en": "Planning and coordinating the workforce (workforce planning, staffing) to meet business needs with the right numbers and skills."
-        }
-      },
-      {
-        "term": "Employee & Labor Relations",
-        "detail": {
-          "vi": "Quản lý quan hệ giữa người sử dụng lao động và nhân viên/công đoàn, bao gồm giải quyết khiếu nại, thương lượng tập thể và duy trì môi trường công bằng.",
-          "en": "Managing the relationship between the employer and employees/unions, including grievances, collective bargaining and a fair environment."
-        }
-      },
-      {
-        "term": "Technology & Data Management",
-        "detail": {
-          "vi": "Ứng dụng HRIS và phân tích dữ liệu để tự động hóa quy trình HR và hỗ trợ ra quyết định dựa trên bằng chứng.",
-          "en": "Using an HRIS and data analytics to automate HR processes and support evidence-based decisions."
-        }
-      }
+      { "term": "Structure of the HR Function", "detail": { "vi": "Cách tổ chức bộ phận HR (tập trung, phân tán hay mô hình đối tác kinh doanh) và cách nó hỗ trợ các đơn vị; cũng gắn với cấu trúc tổ chức tổng thể (chức năng, bộ phận, ma trận).", "en": "How the HR department is organized (centralized, decentralized or business-partner model) and how it supports each unit; also tied to the overall organizational structure (functional, divisional, matrix)." } },
+      { "term": "Organizational Effectiveness & Development", "detail": { "vi": "Các nỗ lực cải thiện năng lực, cấu trúc, quy trình và văn hóa để tổ chức đạt mục tiêu chiến lược một cách bền vững.", "en": "Efforts to improve capability, structure, processes and culture so the organization achieves its strategic goals sustainably." } },
+      { "term": "Workforce Management", "detail": { "vi": "Hoạch định và điều phối lực lượng lao động (workforce planning, staffing) để đáp ứng nhu cầu kinh doanh đúng số lượng và kỹ năng.", "en": "Planning and coordinating the workforce (workforce planning, staffing) to meet business needs with the right numbers and skills." } },
+      { "term": "Employee & Labor Relations", "detail": { "vi": "Quản lý quan hệ giữa người sử dụng lao động và nhân viên/công đoàn, gồm xử lý khiếu nại, thương lượng tập thể và duy trì môi trường công bằng.", "en": "Managing the relationship between the employer and employees/unions, including grievances, collective bargaining and maintaining a fair environment." } },
+      { "term": "Technology Management", "detail": { "vi": "Lựa chọn, triển khai và sử dụng HRIS cùng phân tích dữ liệu để tự động hóa quy trình HR và hỗ trợ ra quyết định dựa trên bằng chứng.", "en": "Selecting, implementing and using an HRIS and data analytics to automate HR processes and support evidence-based decisions." } },
+      { "term": "Change Management", "detail": { "vi": "Phương pháp có hệ thống để chuẩn bị, hỗ trợ và giúp cá nhân, đội nhóm, tổ chức chuyển đổi từ trạng thái hiện tại sang trạng thái mong muốn.", "en": "A systematic approach to preparing, supporting and helping individuals, teams and organizations move from a current to a desired state." } }
     ],
     "diagram": {
-      "vi": "graph TD\n  O[Organization] --> ST[Structure]\n  O --> CU[Culture]\n  O --> CM[Change Management]\n  O --> WM[Workforce Mgmt]\n  O --> LR[Labor Relations]\n  O --> TD[Technology & Data]",
-      "en": "graph TD\n  O[Organization] --> ST[Structure]\n  O --> CU[Culture]\n  O --> CM[Change Management]\n  O --> WM[Workforce Mgmt]\n  O --> LR[Labor Relations]\n  O --> TD[Technology & Data]"
+      "vi": "graph TD\n  O[Organization] --> HF[HR Function Structure]\n  O --> OE[Effectiveness & Development]\n  O --> WM[Workforce Management]\n  O --> LR[Employee & Labor Relations]\n  O --> TM[Technology Management]\n  O --> CM[Change Management]",
+      "en": "graph TD\n  O[Organization] --> HF[HR Function Structure]\n  O --> OE[Effectiveness & Development]\n  O --> WM[Workforce Management]\n  O --> LR[Employee & Labor Relations]\n  O --> TM[Technology Management]\n  O --> CM[Change Management]"
     },
     "applications": [
-      {
-        "title": {
-          "vi": "Tái cấu trúc phòng ban",
-          "en": "Restructure a department"
-        },
-        "description": {
-          "vi": "Rà soát cấu trúc hiện tại và đề xuất mô hình phù hợp hơn với chiến lược, kèm kế hoạch truyền thông và phân bổ lại vai trò.",
-          "en": "Review the current structure and propose a model better aligned with strategy, with a communication plan and role reassignment."
-        }
-      },
-      {
-        "title": {
-          "vi": "Dẫn dắt chuyển đổi số bằng mô hình change management",
-          "en": "Lead digital transformation with a change-management model"
-        },
-        "description": {
-          "vi": "Áp dụng quy trình quản trị thay đổi để giảm kháng cự khi triển khai HRIS mới, với lộ trình đào tạo và đo lường mức độ áp dụng.",
-          "en": "Apply a change-management process to reduce resistance when rolling out a new HRIS, with a training path and adoption metrics."
-        }
-      },
-      {
-        "title": {
-          "vi": "Cải thiện quan hệ lao động",
-          "en": "Improve labor relations"
-        },
-        "description": {
-          "vi": "Xây dựng kênh đối thoại thường xuyên và quy trình xử lý khiếu nại minh bạch để giảm xung đột và tăng niềm tin.",
-          "en": "Build regular dialogue channels and a transparent grievance process to reduce conflict and build trust."
-        }
-      }
+      { "title": { "vi": "Tái cấu trúc một nhóm", "en": "Restructure a team" }, "description": { "vi": "Rà soát cấu trúc hiện tại và đề xuất mô hình phù hợp hơn với chiến lược, kèm kế hoạch truyền thông và phân bổ lại vai trò.", "en": "Review the current structure and propose a model better aligned with strategy, with a communication plan and role reassignment." } },
+      { "title": { "vi": "Dẫn dắt một sáng kiến thay đổi", "en": "Lead a change initiative" }, "description": { "vi": "Áp dụng quy trình quản trị thay đổi để giảm kháng cự khi triển khai quy trình mới, với lộ trình đào tạo và đo lường mức độ áp dụng.", "en": "Apply a change-management process to reduce resistance when rolling out a new process, with a training path and adoption metrics." } },
+      { "title": { "vi": "Lựa chọn và triển khai HRIS", "en": "Select and implement an HRIS" }, "description": { "vi": "Xác định yêu cầu, đánh giá nhà cung cấp và lập kế hoạch triển khai hệ thống HRIS để nâng cao hiệu quả và chất lượng dữ liệu nhân sự.", "en": "Define requirements, evaluate vendors and plan the rollout of an HRIS to improve HR efficiency and data quality." } },
+      { "title": { "vi": "Xử lý vấn đề quan hệ lao động", "en": "Resolve a labor-relations issue" }, "description": { "vi": "Xây dựng kênh đối thoại thường xuyên và quy trình xử lý khiếu nại minh bạch để giảm xung đột và tăng niềm tin.", "en": "Build regular dialogue channels and a transparent grievance process to reduce conflict and build trust." } }
     ]
   },
   "workplace": {
     "objectives": [
-      {
-        "vi": "Giải thích quy trình Risk Management trong bối cảnh nhân sự và an toàn nơi làm việc.",
-        "en": "Explain the risk management process in the context of HR and workplace safety."
-      },
-      {
-        "vi": "Mô tả Corporate Social Responsibility (CSR) và vai trò của HR trong các sáng kiến CSR.",
-        "en": "Describe corporate social responsibility (CSR) and HR's role in CSR initiatives."
-      },
-      {
-        "vi": "Nêu các nguyên tắc Workplace Health, Safety & Security bảo vệ nhân viên.",
-        "en": "State the principles of workplace health, safety & security that protect employees."
-      },
-      {
-        "vi": "Phân tích cách quản lý Global Workforce và tuân thủ Employment Law & Regulations.",
-        "en": "Analyze how to manage a global workforce and comply with employment law & regulations."
-      },
-      {
-        "vi": "Nhận diện vai trò của Diversity, Equity & Inclusion tại nơi làm việc.",
-        "en": "Identify the role of diversity, equity & inclusion in the workplace."
-      }
+      { "vi": "Phân tích cách quản lý Managing a Global Workforce qua các khác biệt về văn hóa và pháp luật.", "en": "Analyze how to manage a global workforce across cultural and legal differences." },
+      { "vi": "Giải thích quy trình Risk Management trong bối cảnh nhân sự và an toàn nơi làm việc.", "en": "Explain the Risk Management process in the context of HR and workplace safety." },
+      { "vi": "Mô tả Corporate Social Responsibility (CSR) và vai trò của HR trong các sáng kiến CSR.", "en": "Describe Corporate Social Responsibility (CSR) and HR's role in CSR initiatives." },
+      { "vi": "Trình bày cách tuân thủ Employment Law & Regulations (mô tả khái quát, không trích dẫn cụ thể).", "en": "Explain how to comply with Employment Law & Regulations (described generically, without specific citations)." },
+      { "vi": "Nêu các nguyên tắc Workplace Health, Safety & Security bảo vệ nhân viên.", "en": "State the principles of Workplace Health, Safety & Security that protect employees." },
+      { "vi": "Nhận diện vai trò của Diversity & Inclusion in the Workplace đối với môi trường làm việc.", "en": "Identify the role of Diversity & Inclusion in the Workplace for the work environment." }
     ],
     "keyPoints": [
-      {
-        "term": "Risk Management",
-        "detail": {
-          "vi": "Quy trình xác định, đánh giá và giảm thiểu rủi ro liên quan đến con người, pháp lý và vận hành ảnh hưởng tới tổ chức.",
-          "en": "The process of identifying, assessing and mitigating people, legal and operational risks affecting the organization."
-        }
-      },
-      {
-        "term": "Corporate Social Responsibility (CSR)",
-        "detail": {
-          "vi": "Cam kết của tổ chức hành động có trách nhiệm với xã hội, môi trường và các bên liên quan vượt trên nghĩa vụ pháp lý tối thiểu.",
-          "en": "An organization's commitment to act responsibly toward society, the environment and stakeholders beyond minimum legal duties."
-        }
-      },
-      {
-        "term": "Workplace Health, Safety & Security",
-        "detail": {
-          "vi": "Các chính sách và biện pháp bảo vệ sức khỏe thể chất, tinh thần và an ninh của nhân viên tại nơi làm việc.",
-          "en": "Policies and measures that protect employees' physical and mental health and security at work."
-        }
-      },
-      {
-        "term": "Managing a Global Workforce",
-        "detail": {
-          "vi": "Quản lý lực lượng lao động xuyên biên giới với khác biệt về văn hóa, pháp luật lao động và chế độ đãi ngộ.",
-          "en": "Managing a cross-border workforce with differences in culture, labor law and compensation practices."
-        }
-      },
-      {
-        "term": "Employment Law & Regulations",
-        "detail": {
-          "vi": "Khung pháp lý điều chỉnh quan hệ lao động (chống phân biệt đối xử, an toàn, tiền lương) mà HR phải bảo đảm tuân thủ (compliance).",
-          "en": "The legal framework governing employment (anti-discrimination, safety, wages) that HR must ensure is complied with."
-        }
-      },
-      {
-        "term": "Technology Management",
-        "detail": {
-          "vi": "Quản lý ứng dụng công nghệ nơi làm việc, bao gồm bảo mật dữ liệu nhân viên và các rủi ro liên quan tới quyền riêng tư.",
-          "en": "Managing workplace technology, including employee data security and privacy-related risks."
-        }
-      }
+      { "term": "Managing a Global Workforce", "detail": { "vi": "Quản lý lực lượng lao động xuyên biên giới với khác biệt về văn hóa, pháp luật lao động, chế độ đãi ngộ và luân chuyển quốc tế (global mobility).", "en": "Managing a cross-border workforce with differences in culture, labor law, compensation practices and international mobility." } },
+      { "term": "Risk Management", "detail": { "vi": "Quy trình xác định, đánh giá và giảm thiểu rủi ro về con người, pháp lý và vận hành có thể ảnh hưởng tới tổ chức.", "en": "The process of identifying, assessing and mitigating people, legal and operational risks that could affect the organization." } },
+      { "term": "Corporate Social Responsibility (CSR)", "detail": { "vi": "Cam kết của tổ chức hành động có trách nhiệm với xã hội, môi trường và các bên liên quan vượt trên nghĩa vụ pháp lý tối thiểu.", "en": "An organization's commitment to act responsibly toward society, the environment and stakeholders beyond minimum legal duties." } },
+      { "term": "Employment Law & Regulations", "detail": { "vi": "Khung pháp lý điều chỉnh quan hệ lao động (chống phân biệt đối xử, an toàn, tiền lương) mà HR phải bảo đảm tuân thủ (compliance).", "en": "The legal framework governing employment (anti-discrimination, safety, wages) that HR must ensure is complied with." } },
+      { "term": "Workplace Health, Safety & Security", "detail": { "vi": "Các chính sách và biện pháp bảo vệ sức khỏe thể chất, tinh thần và an ninh của nhân viên tại nơi làm việc.", "en": "Policies and measures that protect employees' physical and mental health and security at work." } },
+      { "term": "Diversity & Inclusion in the Workplace", "detail": { "vi": "Xây dựng môi trường tôn trọng sự đa dạng, bảo đảm công bằng về cơ hội và tạo cảm giác thuộc về cho mọi nhân viên.", "en": "Building a workplace that respects diversity, ensures equal opportunity and fosters a sense of belonging for all employees." } }
     ],
     "diagram": {
-      "vi": "graph TD\n  W[Workplace] --> RM[Risk Management]\n  W --> CSR[CSR]\n  W --> HS[Health & Safety]\n  W --> GW[Global Workforce]\n  W --> LAW[Employment Law]\n  W --> DEI[Diversity Equity & Inclusion]",
-      "en": "graph TD\n  W[Workplace] --> RM[Risk Management]\n  W --> CSR[CSR]\n  W --> HS[Health & Safety]\n  W --> GW[Global Workforce]\n  W --> LAW[Employment Law]\n  W --> DEI[Diversity Equity & Inclusion]"
+      "vi": "graph TD\n  W[Workplace] --> GW[Global Workforce]\n  W --> RM[Risk Management]\n  W --> CSR[CSR]\n  W --> LAW[Employment Law]\n  W --> HS[Health & Safety]\n  W --> DI[Diversity & Inclusion]",
+      "en": "graph TD\n  W[Workplace] --> GW[Global Workforce]\n  W --> RM[Risk Management]\n  W --> CSR[CSR]\n  W --> LAW[Employment Law]\n  W --> HS[Health & Safety]\n  W --> DI[Diversity & Inclusion]"
     },
     "applications": [
-      {
-        "title": {
-          "vi": "Xây chương trình an toàn lao động",
-          "en": "Build a workplace safety program"
-        },
-        "description": {
-          "vi": "Thiết lập quy trình đánh giá nguy cơ, đào tạo an toàn định kỳ và kênh báo cáo sự cố để giảm tai nạn nơi làm việc.",
-          "en": "Set up hazard assessment, regular safety training and an incident reporting channel to reduce workplace accidents."
-        }
-      },
-      {
-        "title": {
-          "vi": "Lập chính sách CSR",
-          "en": "Establish a CSR policy"
-        },
-        "description": {
-          "vi": "Phát triển sáng kiến cộng đồng và môi trường gắn với giá trị tổ chức, đồng thời khuyến khích nhân viên tham gia tình nguyện.",
-          "en": "Develop community and environmental initiatives aligned with organizational values and encourage employee volunteering."
-        }
-      },
-      {
-        "title": {
-          "vi": "Quản trị rủi ro tuân thủ",
-          "en": "Manage compliance risk"
-        },
-        "description": {
-          "vi": "Rà soát quy định lao động áp dụng và xây dựng quy trình kiểm soát để giảm rủi ro pháp lý khi mở rộng sang thị trường mới.",
-          "en": "Review applicable labor regulations and build controls to reduce legal risk when expanding into new markets."
-        }
-      }
+      { "title": { "vi": "Xây chương trình an toàn lao động", "en": "Build a workplace-safety program" }, "description": { "vi": "Thiết lập quy trình đánh giá nguy cơ, đào tạo an toàn định kỳ và kênh báo cáo sự cố để giảm tai nạn nơi làm việc.", "en": "Set up hazard assessment, regular safety training and an incident-reporting channel to reduce workplace accidents." } },
+      { "title": { "vi": "Lập một sáng kiến CSR", "en": "Launch a CSR initiative" }, "description": { "vi": "Phát triển sáng kiến cộng đồng và môi trường gắn với giá trị tổ chức, đồng thời khuyến khích nhân viên tham gia tình nguyện.", "en": "Develop community and environmental initiatives aligned with organizational values and encourage employee volunteering." } },
+      { "title": { "vi": "Thiết kế chính sách global mobility", "en": "Design a global-mobility policy" }, "description": { "vi": "Xây dựng chính sách luân chuyển quốc tế bao gồm đãi ngộ, hỗ trợ tái định cư và tuân thủ pháp luật lao động tại từng quốc gia.", "en": "Build an international-assignment policy covering compensation, relocation support and compliance with each country's labor law." } },
+      { "title": { "vi": "Đánh giá rủi ro tuân thủ", "en": "Run a compliance-risk assessment" }, "description": { "vi": "Rà soát quy định lao động áp dụng và xây dựng quy trình kiểm soát để giảm rủi ro pháp lý khi mở rộng sang thị trường mới.", "en": "Review applicable labor regulations and build controls to reduce legal risk when expanding into new markets." } }
     ]
   },
   "leadership": {
     "objectives": [
-      {
-        "vi": "Phân biệt leadership và management trong thực hành HR.",
-        "en": "Distinguish leadership from management in HR practice."
-      },
-      {
-        "vi": "Mô tả năng lực Ethical Practice và vai trò giữ gìn chính trực của HR.",
-        "en": "Describe the Ethical Practice competency and HR's role in maintaining integrity."
-      },
-      {
-        "vi": "Trình bày cách Leadership & Navigation dẫn dắt tổ chức qua thay đổi.",
-        "en": "Explain how Leadership & Navigation leads the organization through change."
-      },
-      {
-        "vi": "Giải thích vai trò của HR như đối tác chiến lược (strategic partner) trong việc định hình và truyền đạt tầm nhìn.",
-        "en": "Explain HR's role as a strategic partner in shaping and communicating vision."
-      }
+      { "vi": "Phân biệt leadership và management trong thực hành HR.", "en": "Distinguish leadership from management in HR practice." },
+      { "vi": "Mô tả năng lực Leadership & Navigation và cách dẫn dắt tổ chức qua thay đổi.", "en": "Describe the Leadership & Navigation competency and how to lead the organization through change." },
+      { "vi": "Giải thích cách xây dựng và truyền đạt tầm nhìn (vision) để tạo đồng thuận.", "en": "Explain how to build and communicate a vision to create consensus." },
+      { "vi": "Trình bày cách quản lý các sáng kiến HR (managing HR initiatives) gắn với chiến lược.", "en": "Explain how to manage HR initiatives tied to strategy." },
+      { "vi": "Mô tả năng lực Ethical Practice và vai trò của HR như một tác nhân đạo đức (ethical agent).", "en": "Describe the Ethical Practice competency and HR's role as an ethical agent." },
+      { "vi": "Giải thích tầm quan trọng của chính trực cá nhân và nghề nghiệp (personal & professional integrity).", "en": "Explain the importance of personal and professional integrity." }
     ],
     "keyPoints": [
-      {
-        "term": "Leadership & Navigation",
-        "detail": {
-          "vi": "Năng lực định hướng tổ chức, dẫn dắt các sáng kiến và điều hướng (navigate) tổ chức vượt qua thay đổi và thách thức.",
-          "en": "The ability to direct the organization, lead initiatives and navigate it through change and challenges."
-        }
-      },
-      {
-        "term": "Ethical Practice",
-        "detail": {
-          "vi": "Năng lực hành xử chính trực, áp dụng các giá trị đạo đức cốt lõi và duy trì sự liêm chính trong mọi hoạt động của tổ chức.",
-          "en": "The ability to act with integrity, apply core ethical values and uphold integrity across all organizational activities."
-        }
-      },
-      {
-        "term": "Vision & Influence",
-        "detail": {
-          "vi": "Khả năng xây dựng tầm nhìn chung và gây ảnh hưởng tới các bên liên quan để đạt mục tiêu tổ chức.",
-          "en": "The ability to build a shared vision and influence stakeholders to achieve organizational goals."
-        }
-      },
-      {
-        "term": "Integrity & Accountability",
-        "detail": {
-          "vi": "Giữ sự nhất quán giữa lời nói và hành động, chịu trách nhiệm (accountable) về quyết định và kết quả.",
-          "en": "Keeping words and actions consistent and being accountable for decisions and outcomes."
-        }
-      },
-      {
-        "term": "Managing HR Initiatives",
-        "detail": {
-          "vi": "Lập kế hoạch, triển khai và đo lường các sáng kiến HR gắn với chiến lược kinh doanh của tổ chức.",
-          "en": "Planning, implementing and measuring HR initiatives tied to the organization's business strategy."
-        }
-      }
+      { "term": "Leadership & Navigation", "detail": { "vi": "Năng lực định hướng tổ chức, dẫn dắt các sáng kiến và điều hướng (navigate) tổ chức vượt qua thay đổi và thách thức.", "en": "The ability to direct the organization, lead initiatives and navigate it through change and challenges." } },
+      { "term": "Vision", "detail": { "vi": "Khả năng xác định và truyền đạt định hướng dài hạn, gắn kết các sáng kiến nhân sự với chiến lược tổ chức.", "en": "The ability to define and communicate long-term direction, aligning HR initiatives with organizational strategy." } },
+      { "term": "Managing HR Initiatives", "detail": { "vi": "Lập kế hoạch, triển khai và đo lường các sáng kiến HR gắn với chiến lược kinh doanh của tổ chức.", "en": "Planning, implementing and measuring HR initiatives tied to the organization's business strategy." } },
+      { "term": "Influence", "detail": { "vi": "Khả năng tạo ảnh hưởng, truyền cảm hứng và vận động người khác hướng tới mục tiêu chung mà không nhất thiết dựa vào quyền lực chính thức.", "en": "The ability to influence, inspire and mobilize others toward shared goals without necessarily relying on formal authority." } },
+      { "term": "Ethical Practice", "detail": { "vi": "Năng lực hành xử chính trực, áp dụng các giá trị đạo đức cốt lõi và duy trì sự liêm chính trong mọi hoạt động của tổ chức.", "en": "The ability to act with integrity, apply core ethical values and uphold integrity across all organizational activities." } },
+      { "term": "Personal & Professional Integrity", "detail": { "vi": "Giữ sự nhất quán giữa lời nói và hành động, làm gương và chịu trách nhiệm giải trình (accountable) về quyết định và kết quả.", "en": "Keeping words and actions consistent, leading by example and being accountable for decisions and outcomes." } }
     ],
     "diagram": {
-      "vi": "graph TD\n  L[Leadership] --> LN[Leadership & Navigation]\n  L --> EP[Ethical Practice]\n  LN --> VI[Vision & Influence]\n  EP --> IN[Integrity]\n  EP --> AC[Accountability]",
-      "en": "graph TD\n  L[Leadership] --> LN[Leadership & Navigation]\n  L --> EP[Ethical Practice]\n  LN --> VI[Vision & Influence]\n  EP --> IN[Integrity]\n  EP --> AC[Accountability]"
+      "vi": "graph TD\n  L[Leadership] --> LN[Leadership & Navigation]\n  L --> EP[Ethical Practice]\n  LN --> VI[Vision]\n  LN --> MI[Managing HR Initiatives]\n  EP --> IN[Integrity]\n  EP --> AC[Accountability]",
+      "en": "graph TD\n  L[Leadership] --> LN[Leadership & Navigation]\n  L --> EP[Ethical Practice]\n  LN --> VI[Vision]\n  LN --> MI[Managing HR Initiatives]\n  EP --> IN[Integrity]\n  EP --> AC[Accountability]"
     },
     "applications": [
-      {
-        "title": {
-          "vi": "Dẫn dắt sáng kiến HR toàn công ty",
-          "en": "Lead a company-wide HR initiative"
-        },
-        "description": {
-          "vi": "Lập kế hoạch và điều phối một chương trình thay đổi quy mô lớn, giành sự ủng hộ của lãnh đạo và truyền đạt tầm nhìn tới toàn tổ chức.",
-          "en": "Plan and coordinate a large-scale change program, win leadership support and communicate the vision across the organization."
-        }
-      },
-      {
-        "title": {
-          "vi": "Xử lý tình huống xung đột đạo đức",
-          "en": "Handle an ethical conflict situation"
-        },
-        "description": {
-          "vi": "Áp dụng khung Ethical Practice để phân tích và giải quyết tình huống xung đột lợi ích một cách minh bạch, công bằng.",
-          "en": "Apply the Ethical Practice framework to analyze and resolve a conflict of interest transparently and fairly."
-        }
-      },
-      {
-        "title": {
-          "vi": "Xây dựng và truyền đạt tầm nhìn",
-          "en": "Build and communicate a vision"
-        },
-        "description": {
-          "vi": "Phát triển tầm nhìn HR gắn với chiến lược kinh doanh và truyền đạt thuyết phục để tạo đồng thuận trong tổ chức.",
-          "en": "Develop an HR vision aligned with business strategy and communicate it persuasively to build consensus."
-        }
-      }
+      { "title": { "vi": "Dẫn dắt qua thay đổi", "en": "Lead through change" }, "description": { "vi": "Lập kế hoạch và điều phối một chương trình thay đổi quy mô lớn, giành sự ủng hộ của lãnh đạo và truyền đạt tầm nhìn tới toàn tổ chức.", "en": "Plan and coordinate a large-scale change program, win leadership support and communicate the vision across the organization." } },
+      { "title": { "vi": "Xử lý một vi phạm đạo đức", "en": "Handle an ethics violation" }, "description": { "vi": "Áp dụng khung Ethical Practice để điều tra, phân tích và giải quyết vi phạm một cách minh bạch, công bằng và nhất quán.", "en": "Apply the Ethical Practice framework to investigate, analyze and resolve a violation transparently, fairly and consistently." } },
+      { "title": { "vi": "Gây ảnh hưởng mà không có quyền lực chính thức", "en": "Influence without authority" }, "description": { "vi": "Dùng dữ liệu, mối quan hệ và lập luận thuyết phục để vận động các bên liên quan ủng hộ một sáng kiến HR khi không có quyền ra lệnh trực tiếp.", "en": "Use data, relationships and persuasive reasoning to win stakeholder support for an HR initiative without direct command authority." } },
+      { "title": { "vi": "Làm gương về giá trị", "en": "Model the values" }, "description": { "vi": "Thể hiện hành vi nhất quán với giá trị tổ chức trong các quyết định hằng ngày để củng cố văn hóa chính trực.", "en": "Demonstrate behavior consistent with organizational values in everyday decisions to reinforce a culture of integrity." } }
     ]
   },
   "interpersonal": {
     "objectives": [
-      {
-        "vi": "Xây dựng và duy trì các mối quan hệ công việc hiệu quả (Relationship Management).",
-        "en": "Build and maintain effective working relationships (Relationship Management)."
-      },
-      {
-        "vi": "Giao tiếp rõ ràng, đa chiều với nhiều nhóm đối tượng (Communication).",
-        "en": "Communicate clearly and multi-directionally with many audiences (Communication)."
-      },
-      {
-        "vi": "Áp dụng Global Mindset khi làm việc trong môi trường đa văn hóa.",
-        "en": "Apply a Global Mindset when working in multicultural environments."
-      },
-      {
-        "vi": "Thúc đẩy Diversity, Equity & Inclusion trong tổ chức.",
-        "en": "Promote Diversity, Equity & Inclusion in the organization."
-      }
+      { "vi": "Xây dựng và duy trì các mối quan hệ công việc hiệu quả (Relationship Management).", "en": "Build and maintain effective working relationships (Relationship Management)." },
+      { "vi": "Quản lý xung đột và phát triển mạng lưới quan hệ (networking) hỗ trợ công việc.", "en": "Manage conflict and develop a professional network that supports the work." },
+      { "vi": "Giao tiếp rõ ràng, đa chiều và phù hợp với từng nhóm đối tượng (Communication).", "en": "Communicate clearly, multi-directionally and appropriately for each audience (Communication)." },
+      { "vi": "Áp dụng Global Mindset khi làm việc trong môi trường đa văn hóa.", "en": "Apply a Global Mindset when working in multicultural environments." },
+      { "vi": "Thúc đẩy Diversity, Equity & Inclusion trong tổ chức.", "en": "Promote Diversity, Equity & Inclusion in the organization." },
+      { "vi": "Lắng nghe chủ động và điều chỉnh thông điệp cho các bên liên quan khác nhau.", "en": "Listen actively and adapt messages for different stakeholders." }
     ],
     "keyPoints": [
-      {
-        "term": "Relationship Management",
-        "detail": {
-          "vi": "Năng lực xây dựng, duy trì mạng lưới quan hệ và quản lý tương tác để đạt mục tiêu chung, bao gồm networking và quản lý xung đột.",
-          "en": "The ability to build and maintain networks and manage interactions to reach shared goals, including networking and conflict management."
-        }
-      },
-      {
-        "term": "Communication",
-        "detail": {
-          "vi": "Năng lực trao đổi thông tin hiệu quả qua nhiều kênh, lắng nghe chủ động và truyền đạt rõ ràng tới các bên liên quan.",
-          "en": "The ability to exchange information effectively across channels, listen actively and convey messages clearly to stakeholders."
-        }
-      },
-      {
-        "term": "Global Mindset",
-        "detail": {
-          "vi": "Năng lực đánh giá cao sự đa dạng văn hóa và làm việc hiệu quả với con người từ các nền văn hóa, nền tảng khác nhau.",
-          "en": "The ability to value cultural diversity and work effectively with people from different cultures and backgrounds."
-        }
-      },
-      {
-        "term": "Diversity, Equity & Inclusion",
-        "detail": {
-          "vi": "Năng lực xây dựng môi trường tôn trọng sự đa dạng, bảo đảm công bằng và tạo cảm giác thuộc về (inclusion) cho mọi nhân viên.",
-          "en": "The ability to build an environment that respects diversity, ensures equity and creates a sense of belonging for all employees."
-        }
-      },
-      {
-        "term": "Conflict Management & Networking",
-        "detail": {
-          "vi": "Kỹ năng hòa giải bất đồng theo hướng xây dựng và phát triển mạng lưới quan hệ hỗ trợ công việc.",
-          "en": "Skills for resolving disagreements constructively and building a supportive professional network."
-        }
-      }
+      { "term": "Relationship Management", "detail": { "vi": "Năng lực xây dựng, duy trì mạng lưới quan hệ và quản lý tương tác để đạt mục tiêu chung, bao gồm networking và làm việc nhóm.", "en": "The ability to build and maintain networks and manage interactions to reach shared goals, including networking and teamwork." } },
+      { "term": "Communication", "detail": { "vi": "Năng lực trao đổi thông tin hiệu quả qua nhiều kênh, lắng nghe chủ động và truyền đạt rõ ràng tới các bên liên quan.", "en": "The ability to exchange information effectively across channels, listen actively and convey messages clearly to stakeholders." } },
+      { "term": "Global Mindset", "detail": { "vi": "Năng lực đánh giá cao sự đa dạng văn hóa và làm việc hiệu quả với con người từ các nền văn hóa, nền tảng khác nhau.", "en": "The ability to value cultural diversity and work effectively with people from different cultures and backgrounds." } },
+      { "term": "Diversity, Equity & Inclusion", "detail": { "vi": "Năng lực xây dựng môi trường tôn trọng sự đa dạng, bảo đảm công bằng (equity) và tạo cảm giác thuộc về (inclusion) cho mọi nhân viên.", "en": "The ability to build an environment that respects diversity, ensures equity and creates a sense of belonging for all employees." } },
+      { "term": "Conflict Management", "detail": { "vi": "Kỹ năng nhận diện, điều phối và hòa giải bất đồng giữa cá nhân hoặc nhóm theo hướng xây dựng và chuyên nghiệp.", "en": "The skill of identifying, mediating and resolving disagreements between individuals or groups constructively and professionally." } },
+      { "term": "Negotiation & Teamwork", "detail": { "vi": "Khả năng hợp tác trong nhóm và thương lượng để đạt kết quả đôi bên cùng có lợi trong khi vẫn giữ quan hệ.", "en": "The ability to collaborate in teams and negotiate win-win outcomes while preserving relationships." } }
     ],
     "diagram": {
-      "vi": "graph TD\n  I[Interpersonal] --> RM[Relationship Mgmt]\n  I --> CO[Communication]\n  I --> GM[Global Mindset]\n  I --> DEI[Diversity Equity & Inclusion]",
-      "en": "graph TD\n  I[Interpersonal] --> RM[Relationship Mgmt]\n  I --> CO[Communication]\n  I --> GM[Global Mindset]\n  I --> DEI[Diversity Equity & Inclusion]"
+      "vi": "graph TD\n  I[Interpersonal] --> RM[Relationship Management]\n  I --> CO[Communication]\n  I --> GM[Global Mindset]\n  I --> DEI[Diversity, Equity & Inclusion]",
+      "en": "graph TD\n  I[Interpersonal] --> RM[Relationship Management]\n  I --> CO[Communication]\n  I --> GM[Global Mindset]\n  I --> DEI[Diversity, Equity & Inclusion]"
     },
     "applications": [
-      {
-        "title": {
-          "vi": "Hòa giải xung đột nhóm",
-          "en": "Mediate a team conflict"
-        },
-        "description": {
-          "vi": "Dùng kỹ năng quản lý quan hệ và giao tiếp để làm trung gian, lắng nghe các bên và đạt giải pháp cùng chấp nhận.",
-          "en": "Use relationship-management and communication skills to mediate, listen to each side and reach a mutually acceptable solution."
-        }
-      },
-      {
-        "title": {
-          "vi": "Truyền thông thay đổi tới nhân viên",
-          "en": "Communicate change to employees"
-        },
-        "description": {
-          "vi": "Xây dựng thông điệp phù hợp cho từng nhóm và sử dụng nhiều kênh để giảm lo ngại và tăng mức độ chấp nhận thay đổi.",
-          "en": "Craft messages tailored to each group and use multiple channels to reduce anxiety and increase acceptance of change."
-        }
-      },
-      {
-        "title": {
-          "vi": "Triển khai sáng kiến DEI",
-          "en": "Roll out a DEI initiative"
-        },
-        "description": {
-          "vi": "Thiết kế chương trình tăng tính đa dạng, công bằng và hòa nhập, kèm chỉ số đo lường và cơ chế lắng nghe phản hồi.",
-          "en": "Design a program to increase diversity, equity and inclusion, with measurement metrics and a feedback mechanism."
-        }
-      }
+      { "title": { "vi": "Hòa giải một xung đột", "en": "Mediate a conflict" }, "description": { "vi": "Dùng kỹ năng quản lý quan hệ và giao tiếp để làm trung gian, lắng nghe các bên và đạt giải pháp cùng chấp nhận.", "en": "Use relationship-management and communication skills to mediate, listen to each side and reach a mutually acceptable solution." } },
+      { "title": { "vi": "Truyền đạt phản hồi khó", "en": "Deliver difficult feedback" }, "description": { "vi": "Chuẩn bị và truyền đạt phản hồi mang tính xây dựng, cụ thể và tôn trọng để giúp người nhận cải thiện mà vẫn giữ quan hệ.", "en": "Prepare and deliver constructive, specific and respectful feedback that helps the recipient improve while preserving the relationship." } },
+      { "title": { "vi": "Làm việc xuyên văn hóa", "en": "Operate across cultures" }, "description": { "vi": "Điều chỉnh phong cách giao tiếp và quản lý theo bối cảnh văn hóa để hợp tác hiệu quả với các nhóm toàn cầu.", "en": "Adapt communication and management style to the cultural context to collaborate effectively with global teams." } },
+      { "title": { "vi": "Xây dựng quy trình tuyển dụng hòa nhập", "en": "Build an inclusive hiring process" }, "description": { "vi": "Thiết kế quy trình tuyển dụng giảm thiên kiến, mở rộng nguồn ứng viên đa dạng và bảo đảm công bằng ở mọi bước.", "en": "Design a hiring process that reduces bias, broadens diverse candidate sourcing and ensures fairness at every step." } }
     ]
   },
   "business": {
     "objectives": [
-      {
-        "vi": "Diễn giải dữ liệu nhân sự và HR metrics bằng Analytical Aptitude.",
-        "en": "Interpret HR data and metrics using Analytical Aptitude."
-      },
-      {
-        "vi": "Liên kết hoạt động HR với chiến lược và mục tiêu kinh doanh (Business Acumen).",
-        "en": "Connect HR activities to business strategy and goals (Business Acumen)."
-      },
-      {
-        "vi": "Tư vấn hiệu quả cho lãnh đạo và các bên liên quan (Consultation).",
-        "en": "Consult effectively with leaders and stakeholders (Consultation)."
-      },
-      {
-        "vi": "Đánh giá phản biện dựa trên bằng chứng và dữ liệu (Critical Evaluation).",
-        "en": "Evaluate critically based on evidence and data (Critical Evaluation)."
-      }
+      { "vi": "Liên kết hoạt động HR với chiến lược và mục tiêu kinh doanh (Business Acumen).", "en": "Connect HR activities to business strategy and goals (Business Acumen)." },
+      { "vi": "Hiểu cách tổ chức tạo giá trị và vận hành tài chính để tư vấn hiệu quả hơn.", "en": "Understand how the organization creates value and operates financially to advise more effectively." },
+      { "vi": "Tư vấn hiệu quả cho lãnh đạo và các bên liên quan (Consultation).", "en": "Consult effectively with leaders and stakeholders (Consultation)." },
+      { "vi": "Diễn giải dữ liệu nhân sự và HR metrics bằng Analytical Aptitude.", "en": "Interpret HR data and metrics using Analytical Aptitude." },
+      { "vi": "Đánh giá phản biện bằng chứng và dữ liệu để ra quyết định (Critical Evaluation).", "en": "Critically evaluate evidence and data to make decisions (Critical Evaluation)." },
+      { "vi": "Trình bày kết luận và khuyến nghị kinh doanh dựa trên dữ liệu một cách thuyết phục.", "en": "Present data-driven business conclusions and recommendations persuasively." }
     ],
     "keyPoints": [
-      {
-        "term": "Analytical Aptitude",
-        "detail": {
-          "vi": "Năng lực thu thập, phân tích và diễn giải dữ liệu (HR metrics, analytics) để rút ra kết luận hỗ trợ ra quyết định.",
-          "en": "The ability to gather, analyze and interpret data (HR metrics, analytics) to draw conclusions that support decisions."
-        }
-      },
-      {
-        "term": "Business Acumen",
-        "detail": {
-          "vi": "Hiểu biết về cách tổ chức vận hành và tạo giá trị, để gắn chiến lược HR với mục tiêu kinh doanh.",
-          "en": "Understanding how the organization operates and creates value, in order to align HR strategy with business goals."
-        }
-      },
-      {
-        "term": "Consultation",
-        "detail": {
-          "vi": "Năng lực cung cấp hướng dẫn, tư vấn cho các bên liên quan dựa trên chuyên môn HR và dữ liệu.",
-          "en": "The ability to provide guidance and advice to stakeholders based on HR expertise and data."
-        }
-      },
-      {
-        "term": "Critical Evaluation",
-        "detail": {
-          "vi": "Năng lực thu thập và đánh giá thông tin một cách phản biện để đưa ra quyết định dựa trên bằng chứng (evidence-based).",
-          "en": "The ability to gather and critically evaluate information to make evidence-based decisions."
-        }
-      },
-      {
-        "term": "Evidence-based Decision Making & HR Metrics",
-        "detail": {
-          "vi": "Sử dụng dữ liệu và chỉ số (ví dụ turnover rate, cost-per-hire, time-to-fill) làm cơ sở cho quyết định nhân sự.",
-          "en": "Using data and metrics (e.g. turnover rate, cost-per-hire, time-to-fill) as the basis for HR decisions."
-        }
-      }
+      { "term": "Business Acumen", "detail": { "vi": "Hiểu biết về cách tổ chức vận hành và tạo giá trị (tài chính, vận hành, thị trường) để gắn chiến lược HR với mục tiêu kinh doanh.", "en": "Understanding how the organization operates and creates value (finance, operations, market) in order to align HR strategy with business goals." } },
+      { "term": "Consultation", "detail": { "vi": "Năng lực cung cấp hướng dẫn và tư vấn cho các bên liên quan dựa trên chuyên môn HR và dữ liệu, kèm quản lý dự án và thiết kế giải pháp.", "en": "The ability to provide guidance and advice to stakeholders based on HR expertise and data, including project management and solution design." } },
+      { "term": "Analytical Aptitude", "detail": { "vi": "Năng lực thu thập, phân tích và diễn giải dữ liệu (HR metrics, analytics) để rút ra kết luận hỗ trợ ra quyết định.", "en": "The ability to gather, analyze and interpret data (HR metrics, analytics) to draw conclusions that support decisions." } },
+      { "term": "Critical Evaluation", "detail": { "vi": "Năng lực thu thập và đánh giá thông tin một cách phản biện để đưa ra quyết định dựa trên bằng chứng (evidence-based); thuộc nhóm Business.", "en": "The ability to gather and critically evaluate information to make evidence-based decisions; part of the Business cluster." } },
+      { "term": "HR Metrics & Analytics", "detail": { "vi": "Sử dụng các chỉ số (ví dụ turnover rate, cost-per-hire, time-to-fill) làm cơ sở cho quyết định và chứng minh tác động của HR.", "en": "Using metrics (e.g. turnover rate, cost-per-hire, time-to-fill) as the basis for decisions and to demonstrate HR's impact." } },
+      { "term": "Evidence-based Decision Making", "detail": { "vi": "Kết hợp dữ liệu, chuyên môn và bối cảnh để đưa ra quyết định nhân sự có căn cứ thay vì dựa trên cảm tính.", "en": "Combining data, expertise and context to make well-grounded HR decisions rather than relying on intuition." } }
     ],
     "diagram": {
-      "vi": "graph TD\n  B[Business] --> AA[Analytical Aptitude]\n  B --> BA[Business Acumen]\n  B --> CN[Consultation]\n  B --> CE[Critical Evaluation]",
-      "en": "graph TD\n  B[Business] --> AA[Analytical Aptitude]\n  B --> BA[Business Acumen]\n  B --> CN[Consultation]\n  B --> CE[Critical Evaluation]"
+      "vi": "graph TD\n  B[Business] --> BA[Business Acumen]\n  B --> CN[Consultation]\n  B --> AA[Analytical Aptitude]\n  B --> CE[Critical Evaluation]",
+      "en": "graph TD\n  B[Business] --> BA[Business Acumen]\n  B --> CN[Consultation]\n  B --> AA[Analytical Aptitude]\n  B --> CE[Critical Evaluation]"
     },
     "applications": [
-      {
-        "title": {
-          "vi": "Xây dashboard HR metrics",
-          "en": "Build an HR metrics dashboard"
-        },
-        "description": {
-          "vi": "Thiết kế bảng điều khiển theo dõi các chỉ số then chốt (turnover, engagement, cost-per-hire) để lãnh đạo ra quyết định kịp thời.",
-          "en": "Design a dashboard tracking key metrics (turnover, engagement, cost-per-hire) so leaders can decide in time."
-        }
-      },
-      {
-        "title": {
-          "vi": "Tư vấn tái cơ cấu dựa trên dữ liệu",
-          "en": "Advise on a data-driven restructuring"
-        },
-        "description": {
-          "vi": "Phân tích dữ liệu lực lượng lao động và chi phí để tư vấn phương án tái cơ cấu tối ưu cho ban lãnh đạo.",
-          "en": "Analyze workforce and cost data to advise leadership on an optimal restructuring option."
-        }
-      },
-      {
-        "title": {
-          "vi": "Đánh giá ROI chương trình nhân sự",
-          "en": "Evaluate the ROI of an HR program"
-        },
-        "description": {
-          "vi": "Áp dụng critical evaluation để đo lường chi phí và lợi ích của một chương trình L&D, từ đó khuyến nghị tiếp tục hay điều chỉnh.",
-          "en": "Apply critical evaluation to measure the costs and benefits of an L&D program, then recommend whether to continue or adjust it."
-        }
-      }
+      { "title": { "vi": "Xây dựng business case cho HR", "en": "Build an HR business case" }, "description": { "vi": "Dùng Business Acumen để lượng hóa chi phí, lợi ích và rủi ro của một sáng kiến HR và trình bày thuyết phục với lãnh đạo.", "en": "Use Business Acumen to quantify the cost, benefit and risk of an HR initiative and present it persuasively to leadership." } },
+      { "title": { "vi": "Tư vấn cho quản lý trực tiếp", "en": "Consult with a line manager" }, "description": { "vi": "Áp dụng kỹ năng Consultation để làm rõ nhu cầu, phân tích vấn đề và đề xuất giải pháp nhân sự phù hợp cho một quản lý.", "en": "Apply Consultation skills to clarify needs, analyze the problem and recommend a fitting HR solution for a manager." } },
+      { "title": { "vi": "Diễn giải chỉ số lực lượng lao động", "en": "Interpret workforce metrics" }, "description": { "vi": "Dùng Analytical Aptitude để phân tích dữ liệu turnover, engagement và cost-per-hire nhằm phát hiện xu hướng và đề xuất hành động.", "en": "Use Analytical Aptitude to analyze turnover, engagement and cost-per-hire data to spot trends and recommend action." } },
+      { "title": { "vi": "Đánh giá bằng chứng cho một quyết định", "en": "Evaluate evidence for a decision" }, "description": { "vi": "Áp dụng Critical Evaluation để thẩm định chất lượng dữ liệu và nghiên cứu, loại bỏ thiên kiến trước khi khuyến nghị một phương án.", "en": "Apply Critical Evaluation to assess the quality of data and research and remove bias before recommending an option." } }
     ]
   }
 }
