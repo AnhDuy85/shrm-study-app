@@ -38,3 +38,22 @@ export interface QuizQuestion {
 
 export type FlashcardsData = Record<GroupId, Flashcard[]>;
 export type QuizData = Record<GroupId, QuizQuestion[]>;
+
+export interface LessonScenario {
+  title: string;
+  description: string;
+}
+
+export interface KeyPoint {
+  term: string;
+  detail: string;
+}
+
+export interface ModuleLesson {
+  objectives: string[];
+  keyPoints: KeyPoint[];
+  diagram: string;
+  applications: LessonScenario[];
+}
+
+export type LessonData = Record<GroupId, ModuleLesson>;

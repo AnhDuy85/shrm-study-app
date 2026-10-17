@@ -1,19 +1,21 @@
 import { useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { MODULE_BY_ID } from '../data/modules';
-import { FLASHCARDS, QUIZZES } from '../data';
+import { FLASHCARDS, LESSONS, QUIZZES } from '../data';
 import { useAppState } from '../state/StateProvider';
 import type { GroupId } from '../types';
 import PdfViewer from '../components/PdfViewer';
+import LessonContent from '../components/LessonContent';
 import FlashcardDeck from '../components/FlashcardDeck';
 import QuizRunner from '../components/QuizRunner';
 import NotesEditor from '../components/NotesEditor';
 import Badge from '../components/Badge';
 import NotFound from './NotFound';
 
-type TabId = 'read' | 'flashcards' | 'quiz' | 'notes';
+type TabId = 'lesson' | 'read' | 'flashcards' | 'quiz' | 'notes';
 
 const TABS: { id: TabId; label: string }[] = [
+  { id: 'lesson', label: 'Nội dung học' },
   { id: 'read', label: 'Read' },
   { id: 'flashcards', label: 'Flashcards' },
   { id: 'quiz', label: 'Quiz' },
@@ -23,7 +25,7 @@ const TABS: { id: TabId; label: string }[] = [
 export default function ModulePage() {
   const { groupId } = useParams();
   const { state, setStudied } = useAppState();
-  const [activeTab, setActiveTab] = useState<TabId>('read');
+  const [activeTab, setActiveTab] = useState<TabId>('lesson');
   const tabRefs = useRef<(HTMLButtonElement | null)[]>([]);
 
   const module = groupId ? MODULE_BY_ID[groupId] : undefined;
@@ -115,6 +117,9 @@ export default function ModulePage() {
         tabIndex={0}
         className="focus:outline-none"
       >
+        {activeTab === 'lesson' && (
+          <LessonContent group={group} lesson={LESSONS[group]} />
+        )}
         {activeTab === 'read' && (
           <PdfViewer group={group} pdfs={module.pdfs} />
         )}

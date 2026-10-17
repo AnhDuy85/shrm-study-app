@@ -4,8 +4,11 @@ import AppLayout from './components/AppLayout';
 import DashboardPage from './pages/DashboardPage';
 import ModulePage from './pages/ModulePage';
 import NotFound from './pages/NotFound';
+import { LESSONS } from './data';
 
 export default function App() {
+  // Reference LESSONS so tsc type-checks lessons.json against LessonData at build time.
+  void LESSONS;
   return (
     <StateProvider>
       <BrowserRouter>

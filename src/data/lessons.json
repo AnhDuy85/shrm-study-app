@@ -1,0 +1,287 @@
+{
+  "people": {
+    "objectives": [
+      "Mô tả vòng đời nhân sự (employee lifecycle) và vai trò của HR ở từng giai đoạn.",
+      "Phân biệt Talent Acquisition (thu hút, tuyển dụng) với Employee Engagement & Retention (gắn kết, giữ chân).",
+      "Trình bày các thành phần của Total Rewards (lương, thưởng, phúc lợi, đãi ngộ phi tiền).",
+      "Giải thích vai trò của Performance Management liên tục trong việc gắn kết đóng góp cá nhân với mục tiêu tổ chức.",
+      "Nhận diện cách Learning & Development xây dựng năng lực và lộ trình nghề nghiệp cho nhân viên."
+    ],
+    "keyPoints": [
+      {
+        "term": "Talent Acquisition",
+        "detail": "Chiến lược tạo nguồn (sourcing), tuyển mộ (recruiting) và lựa chọn (selection) ứng viên nhằm đáp ứng nhu cầu nhân lực hiện tại và tương lai của tổ chức."
+      },
+      {
+        "term": "Employee Engagement & Retention",
+        "detail": "Mức độ cam kết, gắn bó của nhân viên cùng các hoạt động giữ chân nhằm giảm tỷ lệ nghỉ việc (turnover) và duy trì nhân tài."
+      },
+      {
+        "term": "Learning & Development",
+        "detail": "Các hoạt động phát triển kiến thức, kỹ năng, năng lực của nhân viên: đào tạo, coaching, mentoring và phát triển nghề nghiệp."
+      },
+      {
+        "term": "Total Rewards",
+        "detail": "Tổng thể đãi ngộ gồm lương (compensation), phúc lợi (benefits) và phần thưởng phi tiền (recognition, phát triển, môi trường làm việc) dùng để thu hút và giữ chân nhân viên."
+      },
+      {
+        "term": "Performance Management",
+        "detail": "Quy trình liên tục thiết lập mục tiêu, theo dõi, phản hồi và đánh giá hiệu suất để gắn kết đóng góp cá nhân với chiến lược tổ chức."
+      },
+      {
+        "term": "Employee Value Proposition (EVP)",
+        "detail": "Tập hợp giá trị mà tổ chức mang lại cho nhân viên để đổi lấy kỹ năng, năng lực và trải nghiệm của họ; nền tảng của thương hiệu nhà tuyển dụng."
+      }
+    ],
+    "diagram": "graph TD\n  P[People] --> TA[Talent Acquisition]\n  P --> EN[Engagement & Retention]\n  P --> LD[Learning & Development]\n  P --> TR[Total Rewards]\n  P --> PM[Performance Management]",
+    "applications": [
+      {
+        "title": "Tối ưu onboarding để giảm nghỉ việc sớm",
+        "description": "Thiết kế chương trình hội nhập 90 ngày có mentor và mốc kiểm tra, giúp nhân viên mới hòa nhập nhanh và giảm turnover trong giai đoạn đầu."
+      },
+      {
+        "title": "Thiết kế gói Total Rewards cạnh tranh",
+        "description": "Khảo sát thị trường lương và kết hợp phúc lợi linh hoạt với phần thưởng phi tiền để thu hút và giữ chân nhân tài trọng yếu."
+      },
+      {
+        "title": "Triển khai đánh giá hiệu suất liên tục",
+        "description": "Thay chu kỳ đánh giá một lần/năm bằng check-in định kỳ và phản hồi thường xuyên để gắn mục tiêu cá nhân với mục tiêu tổ chức."
+      }
+    ]
+  },
+  "organization": {
+    "objectives": [
+      "Nhận diện các kiểu Organizational Structure (chức năng, bộ phận, ma trận) và ảnh hưởng của chúng tới HR.",
+      "Giải thích vai trò của Organizational Culture đối với hiệu quả và hành vi tổ chức.",
+      "Mô tả quy trình Change Management để dẫn dắt tổ chức qua thay đổi.",
+      "Trình bày các nguyên tắc Workforce Management và Employee & Labor Relations.",
+      "Phân tích vai trò của Technology & Data trong vận hành chức năng HR."
+    ],
+    "keyPoints": [
+      {
+        "term": "Organizational Structure",
+        "detail": "Cách tổ chức phân chia công việc, quyền hạn và báo cáo (chức năng, bộ phận, ma trận); định hình cách HR hỗ trợ các đơn vị."
+      },
+      {
+        "term": "Organizational Culture",
+        "detail": "Hệ thống giá trị, niềm tin và chuẩn mực chung chi phối hành vi nhân viên và ảnh hưởng tới organizational effectiveness."
+      },
+      {
+        "term": "Change Management",
+        "detail": "Phương pháp có hệ thống để chuẩn bị, hỗ trợ và giúp cá nhân, đội nhóm, tổ chức chuyển đổi từ trạng thái hiện tại sang trạng thái mong muốn."
+      },
+      {
+        "term": "Workforce Management",
+        "detail": "Hoạch định và điều phối lực lượng lao động (workforce planning, staffing) để đáp ứng nhu cầu kinh doanh đúng số lượng và kỹ năng."
+      },
+      {
+        "term": "Employee & Labor Relations",
+        "detail": "Quản lý quan hệ giữa người sử dụng lao động và nhân viên/công đoàn, bao gồm giải quyết khiếu nại, thương lượng tập thể và duy trì môi trường công bằng."
+      },
+      {
+        "term": "Technology & Data Management",
+        "detail": "Ứng dụng HRIS và phân tích dữ liệu để tự động hóa quy trình HR và hỗ trợ ra quyết định dựa trên bằng chứng."
+      }
+    ],
+    "diagram": "graph TD\n  O[Organization] --> ST[Structure]\n  O --> CU[Culture]\n  O --> CM[Change Management]\n  O --> WM[Workforce Mgmt]\n  O --> LR[Labor Relations]\n  O --> TD[Technology & Data]",
+    "applications": [
+      {
+        "title": "Tái cấu trúc phòng ban",
+        "description": "Rà soát cấu trúc hiện tại và đề xuất mô hình phù hợp hơn với chiến lược, kèm kế hoạch truyền thông và phân bổ lại vai trò."
+      },
+      {
+        "title": "Dẫn dắt chuyển đổi số bằng mô hình change management",
+        "description": "Áp dụng quy trình quản trị thay đổi để giảm kháng cự khi triển khai HRIS mới, với lộ trình đào tạo và đo lường mức độ áp dụng."
+      },
+      {
+        "title": "Cải thiện quan hệ lao động",
+        "description": "Xây dựng kênh đối thoại thường xuyên và quy trình xử lý khiếu nại minh bạch để giảm xung đột và tăng niềm tin."
+      }
+    ]
+  },
+  "workplace": {
+    "objectives": [
+      "Giải thích quy trình Risk Management trong bối cảnh nhân sự và an toàn nơi làm việc.",
+      "Mô tả Corporate Social Responsibility (CSR) và vai trò của HR trong các sáng kiến CSR.",
+      "Nêu các nguyên tắc Workplace Health, Safety & Security bảo vệ nhân viên.",
+      "Phân tích cách quản lý Global Workforce và tuân thủ Employment Law & Regulations.",
+      "Nhận diện vai trò của Diversity, Equity & Inclusion tại nơi làm việc."
+    ],
+    "keyPoints": [
+      {
+        "term": "Risk Management",
+        "detail": "Quy trình xác định, đánh giá và giảm thiểu rủi ro liên quan đến con người, pháp lý và vận hành ảnh hưởng tới tổ chức."
+      },
+      {
+        "term": "Corporate Social Responsibility (CSR)",
+        "detail": "Cam kết của tổ chức hành động có trách nhiệm với xã hội, môi trường và các bên liên quan vượt trên nghĩa vụ pháp lý tối thiểu."
+      },
+      {
+        "term": "Workplace Health, Safety & Security",
+        "detail": "Các chính sách và biện pháp bảo vệ sức khỏe thể chất, tinh thần và an ninh của nhân viên tại nơi làm việc."
+      },
+      {
+        "term": "Managing a Global Workforce",
+        "detail": "Quản lý lực lượng lao động xuyên biên giới với khác biệt về văn hóa, pháp luật lao động và chế độ đãi ngộ."
+      },
+      {
+        "term": "Employment Law & Regulations",
+        "detail": "Khung pháp lý điều chỉnh quan hệ lao động (chống phân biệt đối xử, an toàn, tiền lương) mà HR phải bảo đảm tuân thủ (compliance)."
+      },
+      {
+        "term": "Technology Management",
+        "detail": "Quản lý ứng dụng công nghệ nơi làm việc, bao gồm bảo mật dữ liệu nhân viên và các rủi ro liên quan tới quyền riêng tư."
+      }
+    ],
+    "diagram": "graph TD\n  W[Workplace] --> RM[Risk Management]\n  W --> CSR[CSR]\n  W --> HS[Health & Safety]\n  W --> GW[Global Workforce]\n  W --> LAW[Employment Law]\n  W --> DEI[Diversity Equity & Inclusion]",
+    "applications": [
+      {
+        "title": "Xây chương trình an toàn lao động",
+        "description": "Thiết lập quy trình đánh giá nguy cơ, đào tạo an toàn định kỳ và kênh báo cáo sự cố để giảm tai nạn nơi làm việc."
+      },
+      {
+        "title": "Lập chính sách CSR",
+        "description": "Phát triển sáng kiến cộng đồng và môi trường gắn với giá trị tổ chức, đồng thời khuyến khích nhân viên tham gia tình nguyện."
+      },
+      {
+        "title": "Quản trị rủi ro tuân thủ",
+        "description": "Rà soát quy định lao động áp dụng và xây dựng quy trình kiểm soát để giảm rủi ro pháp lý khi mở rộng sang thị trường mới."
+      }
+    ]
+  },
+  "leadership": {
+    "objectives": [
+      "Phân biệt leadership và management trong thực hành HR.",
+      "Mô tả năng lực Ethical Practice và vai trò giữ gìn chính trực của HR.",
+      "Trình bày cách Leadership & Navigation dẫn dắt tổ chức qua thay đổi.",
+      "Giải thích vai trò của HR như đối tác chiến lược (strategic partner) trong việc định hình và truyền đạt tầm nhìn."
+    ],
+    "keyPoints": [
+      {
+        "term": "Leadership & Navigation",
+        "detail": "Năng lực định hướng tổ chức, dẫn dắt các sáng kiến và điều hướng (navigate) tổ chức vượt qua thay đổi và thách thức."
+      },
+      {
+        "term": "Ethical Practice",
+        "detail": "Năng lực hành xử chính trực, áp dụng các giá trị đạo đức cốt lõi và duy trì sự liêm chính trong mọi hoạt động của tổ chức."
+      },
+      {
+        "term": "Vision & Influence",
+        "detail": "Khả năng xây dựng tầm nhìn chung và gây ảnh hưởng tới các bên liên quan để đạt mục tiêu tổ chức."
+      },
+      {
+        "term": "Integrity & Accountability",
+        "detail": "Giữ sự nhất quán giữa lời nói và hành động, chịu trách nhiệm (accountable) về quyết định và kết quả."
+      },
+      {
+        "term": "Managing HR Initiatives",
+        "detail": "Lập kế hoạch, triển khai và đo lường các sáng kiến HR gắn với chiến lược kinh doanh của tổ chức."
+      }
+    ],
+    "diagram": "graph TD\n  L[Leadership] --> LN[Leadership & Navigation]\n  L --> EP[Ethical Practice]\n  LN --> VI[Vision & Influence]\n  EP --> IN[Integrity]\n  EP --> AC[Accountability]",
+    "applications": [
+      {
+        "title": "Dẫn dắt sáng kiến HR toàn công ty",
+        "description": "Lập kế hoạch và điều phối một chương trình thay đổi quy mô lớn, giành sự ủng hộ của lãnh đạo và truyền đạt tầm nhìn tới toàn tổ chức."
+      },
+      {
+        "title": "Xử lý tình huống xung đột đạo đức",
+        "description": "Áp dụng khung Ethical Practice để phân tích và giải quyết tình huống xung đột lợi ích một cách minh bạch, công bằng."
+      },
+      {
+        "title": "Xây dựng và truyền đạt tầm nhìn",
+        "description": "Phát triển tầm nhìn HR gắn với chiến lược kinh doanh và truyền đạt thuyết phục để tạo đồng thuận trong tổ chức."
+      }
+    ]
+  },
+  "interpersonal": {
+    "objectives": [
+      "Xây dựng và duy trì các mối quan hệ công việc hiệu quả (Relationship Management).",
+      "Giao tiếp rõ ràng, đa chiều với nhiều nhóm đối tượng (Communication).",
+      "Áp dụng Global Mindset khi làm việc trong môi trường đa văn hóa.",
+      "Thúc đẩy Diversity, Equity & Inclusion trong tổ chức."
+    ],
+    "keyPoints": [
+      {
+        "term": "Relationship Management",
+        "detail": "Năng lực xây dựng, duy trì mạng lưới quan hệ và quản lý tương tác để đạt mục tiêu chung, bao gồm networking và quản lý xung đột."
+      },
+      {
+        "term": "Communication",
+        "detail": "Năng lực trao đổi thông tin hiệu quả qua nhiều kênh, lắng nghe chủ động và truyền đạt rõ ràng tới các bên liên quan."
+      },
+      {
+        "term": "Global Mindset",
+        "detail": "Năng lực đánh giá cao sự đa dạng văn hóa và làm việc hiệu quả với con người từ các nền văn hóa, nền tảng khác nhau."
+      },
+      {
+        "term": "Diversity, Equity & Inclusion",
+        "detail": "Năng lực xây dựng môi trường tôn trọng sự đa dạng, bảo đảm công bằng và tạo cảm giác thuộc về (inclusion) cho mọi nhân viên."
+      },
+      {
+        "term": "Conflict Management & Networking",
+        "detail": "Kỹ năng hòa giải bất đồng theo hướng xây dựng và phát triển mạng lưới quan hệ hỗ trợ công việc."
+      }
+    ],
+    "diagram": "graph TD\n  I[Interpersonal] --> RM[Relationship Mgmt]\n  I --> CO[Communication]\n  I --> GM[Global Mindset]\n  I --> DEI[Diversity Equity & Inclusion]",
+    "applications": [
+      {
+        "title": "Hòa giải xung đột nhóm",
+        "description": "Dùng kỹ năng quản lý quan hệ và giao tiếp để làm trung gian, lắng nghe các bên và đạt giải pháp cùng chấp nhận."
+      },
+      {
+        "title": "Truyền thông thay đổi tới nhân viên",
+        "description": "Xây dựng thông điệp phù hợp cho từng nhóm và sử dụng nhiều kênh để giảm lo ngại và tăng mức độ chấp nhận thay đổi."
+      },
+      {
+        "title": "Triển khai sáng kiến DEI",
+        "description": "Thiết kế chương trình tăng tính đa dạng, công bằng và hòa nhập, kèm chỉ số đo lường và cơ chế lắng nghe phản hồi."
+      }
+    ]
+  },
+  "business": {
+    "objectives": [
+      "Diễn giải dữ liệu nhân sự và HR metrics bằng Analytical Aptitude.",
+      "Liên kết hoạt động HR với chiến lược và mục tiêu kinh doanh (Business Acumen).",
+      "Tư vấn hiệu quả cho lãnh đạo và các bên liên quan (Consultation).",
+      "Đánh giá phản biện dựa trên bằng chứng và dữ liệu (Critical Evaluation)."
+    ],
+    "keyPoints": [
+      {
+        "term": "Analytical Aptitude",
+        "detail": "Năng lực thu thập, phân tích và diễn giải dữ liệu (HR metrics, analytics) để rút ra kết luận hỗ trợ ra quyết định."
+      },
+      {
+        "term": "Business Acumen",
+        "detail": "Hiểu biết về cách tổ chức vận hành và tạo giá trị, để gắn chiến lược HR với mục tiêu kinh doanh."
+      },
+      {
+        "term": "Consultation",
+        "detail": "Năng lực cung cấp hướng dẫn, tư vấn cho các bên liên quan dựa trên chuyên môn HR và dữ liệu."
+      },
+      {
+        "term": "Critical Evaluation",
+        "detail": "Năng lực thu thập và đánh giá thông tin một cách phản biện để đưa ra quyết định dựa trên bằng chứng (evidence-based)."
+      },
+      {
+        "term": "Evidence-based Decision Making & HR Metrics",
+        "detail": "Sử dụng dữ liệu và chỉ số (ví dụ turnover rate, cost-per-hire, time-to-fill) làm cơ sở cho quyết định nhân sự."
+      }
+    ],
+    "diagram": "graph TD\n  B[Business] --> AA[Analytical Aptitude]\n  B --> BA[Business Acumen]\n  B --> CN[Consultation]\n  B --> CE[Critical Evaluation]",
+    "applications": [
+      {
+        "title": "Xây dashboard HR metrics",
+        "description": "Thiết kế bảng điều khiển theo dõi các chỉ số then chốt (turnover, engagement, cost-per-hire) để lãnh đạo ra quyết định kịp thời."
+      },
+      {
+        "title": "Tư vấn tái cơ cấu dựa trên dữ liệu",
+        "description": "Phân tích dữ liệu lực lượng lao động và chi phí để tư vấn phương án tái cơ cấu tối ưu cho ban lãnh đạo."
+      },
+      {
+        "title": "Đánh giá ROI chương trình nhân sự",
+        "description": "Áp dụng critical evaluation để đo lường chi phí và lợi ích của một chương trình L&D, từ đó khuyến nghị tiếp tục hay điều chỉnh."
+      }
+    ]
+  }
+}

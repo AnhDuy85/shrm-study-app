@@ -14,7 +14,10 @@ tài liệu BASK.
   Organization, Workplace) và *Behavioral Competencies* (Leadership,
   Interpersonal, Business). Mỗi thẻ hiển thị tiến độ ôn thẻ ghi nhớ, điểm quiz
   cao nhất và trạng thái đã học / chưa học.
-- **Trang mô-đun** với 4 tab:
+- **Trang mô-đun** với 5 tab:
+  - **Nội dung học**: tab đầu tiên, hiển thị nội dung bài học có cấu trúc (chỉ đọc)
+    gồm 4 phần theo thứ tự: *Mục tiêu học tập*, *Ý chính*, *Sơ đồ* (vẽ bằng
+    **Mermaid**) và *Áp dụng thực tiễn*. Nội dung đọc từ `src/data/lessons.json`.
   - **Read**: trình đọc PDF nhúng (react-pdf) với điều hướng trang, thu phóng và
     bộ chọn khi mô-đun có nhiều tài liệu.
   - **Flashcards**: bộ thẻ lật (mặt trước là thuật ngữ tiếng Anh, mặt sau là giải
@@ -71,9 +74,9 @@ từng mô-đun được định nghĩa trong `src/data/modules.ts`.
 
 ## Thêm / sửa nội dung học
 
-Flashcards và quiz là dữ liệu JSON, dễ chỉnh sửa. Cả hai file đều là một object có
-đúng 6 khóa (GroupId): `people`, `organization`, `workplace`, `leadership`,
-`interpersonal`, `business`.
+Flashcards, quiz và nội dung học là dữ liệu JSON, dễ chỉnh sửa. Cả ba file đều là
+một object có đúng 6 khóa (GroupId): `people`, `organization`, `workplace`,
+`leadership`, `interpersonal`, `business`.
 
 ### `src/data/flashcards.json`
 
@@ -117,8 +120,37 @@ Mỗi khóa là một mảng câu hỏi (`QuizQuestion`):
 - `correctIndex`: chỉ số đáp án đúng, giá trị từ `0` đến `3`.
 - `explanation`: giải thích tiếng Việt, hiển thị khi xem lại câu sai.
 
+### `src/data/lessons.json`
+
+Đây là nội dung của tab **"Nội dung học"**. Mỗi khóa (GroupId) là một đối tượng
+`ModuleLesson` với 4 trường:
+
+```json
+{
+  "people": {
+    "objectives": ["Mục tiêu học tập 1", "Mục tiêu học tập 2"],
+    "keyPoints": [
+      { "term": "Talent Acquisition", "detail": "Giải thích tiếng Việt." }
+    ],
+    "diagram": "graph TD\n  A[Nút A] --> B[Nút B]",
+    "applications": [
+      { "title": "Tiêu đề tình huống", "description": "Mô tả ngắn gọn." }
+    ]
+  }
+}
+```
+
+- `objectives`: mảng chuỗi — các mục tiêu học tập (hiển thị dạng danh sách).
+- `keyPoints`: mảng `{ term, detail }` — thuật ngữ (nên giữ tiếng Anh theo SHRM) và
+  phần giải thích tiếng Việt.
+- `diagram`: chuỗi định nghĩa **Mermaid** (ví dụ `graph TD ...`); dùng `\n` để
+  xuống dòng. Sơ đồ được vẽ bằng thư viện **Mermaid** (ghim phiên bản `11.4.1`).
+  Nếu cú pháp sơ đồ bị lỗi, tab sẽ hiển thị thông báo và phần định nghĩa thô thay
+  vì bị treo.
+- `applications`: mảng `{ title, description }` — các tình huống áp dụng thực tiễn.
+
 Sau khi sửa JSON, chạy lại `npm run build` để TypeScript kiểm tra đúng kiểu
-(`FlashcardsData` / `QuizData` trong `src/types.ts`).
+(`FlashcardsData` / `QuizData` / `LessonData` trong `src/types.ts`).
 
 > Lưu ý: chỉ dùng nội dung đúng với tài liệu SHRM BASK; không bịa đặt thông tin
 > về kỳ thi hay chứng chỉ.
