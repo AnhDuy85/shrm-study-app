@@ -1,3 +1,4 @@
+import { FLASHCARDS, QUIZZES } from './data';
 import { MODULES } from './data/modules';
 import { StateProvider, useAppState } from './state/StateProvider';
 import type { ModuleDef } from './types';
@@ -22,7 +23,8 @@ function ModuleList() {
             </h2>
             <p className="text-sm text-gray-600">{m.description}</p>
             <p className="mt-1 text-xs text-gray-400">
-              {m.pdfs.length} tài liệu PDF ·{' '}
+              {m.pdfs.length} tài liệu PDF · {FLASHCARDS[m.id].length} thẻ ·{' '}
+              {QUIZZES[m.id].length} câu hỏi ·{' '}
               {state.modules[m.id].studied ? 'Đã học' : 'Chưa học'}
             </p>
           </li>

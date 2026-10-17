@@ -1,0 +1,194 @@
+{
+  "people": [
+    {
+      "id": "people-01",
+      "term": "Talent Acquisition",
+      "definition": "Quá trình tìm kiếm, thu hút và tuyển dụng ứng viên để đáp ứng nhu cầu nhân lực của tổ chức, bao gồm tạo nguồn, tuyển mộ và lựa chọn."
+    },
+    {
+      "id": "people-02",
+      "term": "Employee Engagement & Retention",
+      "definition": "Mức độ cam kết, gắn bó của nhân viên với công việc và tổ chức, cùng các hoạt động giữ chân nhân viên và giảm tỷ lệ nghỉ việc."
+    },
+    {
+      "id": "people-03",
+      "term": "Learning & Development",
+      "definition": "Các hoạt động phát triển kiến thức, kỹ năng và năng lực của nhân viên như đào tạo, kèm cặp (coaching) và phát triển nghề nghiệp."
+    },
+    {
+      "id": "people-04",
+      "term": "Total Rewards",
+      "definition": "Tổng thể lương, thưởng, phúc lợi và các đãi ngộ (tiền và phi tiền) mà tổ chức dùng để thu hút, tạo động lực và giữ chân nhân viên."
+    },
+    {
+      "id": "people-05",
+      "term": "Performance Management",
+      "definition": "Quy trình liên tục thiết lập mục tiêu, theo dõi, đánh giá và phản hồi về hiệu suất nhằm gắn kết đóng góp cá nhân với mục tiêu tổ chức."
+    },
+    {
+      "id": "people-06",
+      "term": "Employee Value Proposition (EVP)",
+      "definition": "Tập hợp giá trị và lợi ích mà tổ chức mang lại cho nhân viên, đổi lại kỹ năng và đóng góp của họ; nền tảng cho thương hiệu nhà tuyển dụng."
+    }
+  ],
+  "organization": [
+    {
+      "id": "organization-01",
+      "term": "Organizational Structure",
+      "definition": "Cách tổ chức phân chia, nhóm và phối hợp công việc, xác định tuyến báo cáo và phân bổ quyền hạn, trách nhiệm."
+    },
+    {
+      "id": "organization-02",
+      "term": "Organizational Culture",
+      "definition": "Hệ thống giá trị, niềm tin và chuẩn mực chung định hình cách hành xử của các thành viên trong tổ chức."
+    },
+    {
+      "id": "organization-03",
+      "term": "Change Management",
+      "definition": "Phương pháp tiếp cận có hệ thống để chuẩn bị, hỗ trợ và giúp cá nhân, tổ chức chuyển đổi từ trạng thái hiện tại sang trạng thái mong muốn."
+    },
+    {
+      "id": "organization-04",
+      "term": "Workforce Planning",
+      "definition": "Quá trình phân tích và dự báo nhu cầu nhân lực để bảo đảm tổ chức có đúng người, đúng kỹ năng, đúng số lượng, vào đúng thời điểm."
+    },
+    {
+      "id": "organization-05",
+      "term": "Technology Management (HR Technology)",
+      "definition": "Việc lựa chọn, triển khai và sử dụng công nghệ, hệ thống HRIS và dữ liệu để nâng cao hiệu quả các chức năng nhân sự."
+    },
+    {
+      "id": "organization-06",
+      "term": "Organizational Effectiveness & Development",
+      "definition": "Các nỗ lực cải thiện năng lực, cấu trúc và quy trình của tổ chức để đạt mục tiêu chiến lược một cách bền vững."
+    }
+  ],
+  "workplace": [
+    {
+      "id": "workplace-01",
+      "term": "Risk Management",
+      "definition": "Quá trình nhận diện, đánh giá và kiểm soát các rủi ro về con người, pháp lý và hoạt động có thể ảnh hưởng đến tổ chức."
+    },
+    {
+      "id": "workplace-02",
+      "term": "Workplace Health, Safety & Security",
+      "definition": "Các chính sách và biện pháp bảo vệ sức khỏe, an toàn và an ninh cho nhân viên tại nơi làm việc."
+    },
+    {
+      "id": "workplace-03",
+      "term": "Corporate Social Responsibility (CSR)",
+      "definition": "Cam kết của tổ chức hành động có đạo đức và đóng góp cho sự phát triển bền vững của cộng đồng và xã hội."
+    },
+    {
+      "id": "workplace-04",
+      "term": "Employment Law & Regulations",
+      "definition": "Hệ thống luật và quy định điều chỉnh quan hệ lao động mà tổ chức phải tuân thủ trong quản lý nhân sự."
+    },
+    {
+      "id": "workplace-05",
+      "term": "Diversity, Equity & Inclusion in the Workplace",
+      "definition": "Tạo môi trường làm việc tôn trọng sự đa dạng, bảo đảm công bằng về cơ hội và sự hòa nhập của mọi nhân viên."
+    },
+    {
+      "id": "workplace-06",
+      "term": "Global Workforce (U.S. Employment / Global Mobility)",
+      "definition": "Quản lý lực lượng lao động xuyên biên giới, bao gồm luân chuyển quốc tế và tuân thủ quy định tại nhiều quốc gia."
+    }
+  ],
+  "leadership": [
+    {
+      "id": "leadership-01",
+      "term": "Leadership & Navigation",
+      "definition": "Năng lực dẫn dắt, định hướng tổ chức, tạo tầm nhìn và điều hướng qua các quy trình, hệ thống để đạt mục tiêu."
+    },
+    {
+      "id": "leadership-02",
+      "term": "Ethical Practice",
+      "definition": "Năng lực duy trì các giá trị cốt lõi, tính chính trực và trách nhiệm giải trình trong mọi hoạt động của tổ chức."
+    },
+    {
+      "id": "leadership-03",
+      "term": "Vision",
+      "definition": "Khả năng xác định và truyền đạt định hướng dài hạn, gắn kết các sáng kiến nhân sự với chiến lược của tổ chức."
+    },
+    {
+      "id": "leadership-04",
+      "term": "Managing HR Initiatives",
+      "definition": "Dẫn dắt và triển khai các dự án, sáng kiến nhân sự một cách hiệu quả để tạo giá trị cho tổ chức."
+    },
+    {
+      "id": "leadership-05",
+      "term": "Influence",
+      "definition": "Khả năng tạo ảnh hưởng, truyền cảm hứng và vận động người khác hướng tới mục tiêu chung mà không nhất thiết dựa vào quyền lực chính thức."
+    },
+    {
+      "id": "leadership-06",
+      "term": "Personal Integrity & Professionalism",
+      "definition": "Hành xử nhất quán với các nguyên tắc đạo đức, làm gương và duy trì chuẩn mực nghề nghiệp của người làm nhân sự."
+    }
+  ],
+  "interpersonal": [
+    {
+      "id": "interpersonal-01",
+      "term": "Relationship Management",
+      "definition": "Năng lực xây dựng và duy trì mạng lưới quan hệ, quản lý xung đột và làm việc nhóm hiệu quả trong tổ chức."
+    },
+    {
+      "id": "interpersonal-02",
+      "term": "Communication",
+      "definition": "Năng lực trao đổi thông tin, lắng nghe và truyền đạt ý tưởng rõ ràng, phù hợp với từng đối tượng và tình huống."
+    },
+    {
+      "id": "interpersonal-03",
+      "term": "Global Mindset",
+      "definition": "Năng lực đánh giá cao và tôn trọng sự khác biệt về văn hóa, quan điểm để làm việc hiệu quả trong môi trường đa văn hóa."
+    },
+    {
+      "id": "interpersonal-04",
+      "term": "Diversity, Equity & Inclusion",
+      "definition": "Năng lực thúc đẩy môi trường tôn trọng đa dạng, bảo đảm công bằng và sự tham gia của mọi cá nhân."
+    },
+    {
+      "id": "interpersonal-05",
+      "term": "Teamwork & Negotiation",
+      "definition": "Khả năng hợp tác trong nhóm và thương lượng để đạt được kết quả đôi bên cùng có lợi, đồng thời xử lý bất đồng mang tính xây dựng."
+    },
+    {
+      "id": "interpersonal-06",
+      "term": "Conflict Management",
+      "definition": "Kỹ năng nhận diện, điều phối và giải quyết xung đột giữa các cá nhân hoặc nhóm một cách hiệu quả và chuyên nghiệp."
+    }
+  ],
+  "business": [
+    {
+      "id": "business-01",
+      "term": "Business Acumen",
+      "definition": "Năng lực hiểu hoạt động kinh doanh, tài chính và vận hành để liên kết chiến lược nhân sự với mục tiêu của tổ chức."
+    },
+    {
+      "id": "business-02",
+      "term": "Consultation",
+      "definition": "Năng lực tư vấn cho các bên liên quan, đưa ra hướng dẫn và giải pháp nhân sự dựa trên nhu cầu của tổ chức."
+    },
+    {
+      "id": "business-03",
+      "term": "Analytical Aptitude",
+      "definition": "Năng lực thu thập, diễn giải và sử dụng dữ liệu, chỉ số nhân sự để hỗ trợ ra quyết định dựa trên bằng chứng."
+    },
+    {
+      "id": "business-04",
+      "term": "Critical Evaluation",
+      "definition": "Năng lực diễn giải thông tin để đưa ra kết luận và khuyến nghị kinh doanh, bao gồm đánh giá dữ liệu và nghiên cứu một cách phản biện."
+    },
+    {
+      "id": "business-05",
+      "term": "Data Advocacy & HR Metrics",
+      "definition": "Việc sử dụng các chỉ số và phân tích nhân sự (HR metrics) để chứng minh giá trị và tác động của các sáng kiến nhân sự."
+    },
+    {
+      "id": "business-06",
+      "term": "Strategic Alignment",
+      "definition": "Khả năng gắn kết các chương trình, chính sách nhân sự với chiến lược và ưu tiên tổng thể của doanh nghiệp."
+    }
+  ]
+}

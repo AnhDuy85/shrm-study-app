@@ -1,0 +1,266 @@
+{
+  "people": [
+    {
+      "id": "people-q1",
+      "question": "Hoạt động nào sau đây thuộc chức năng Talent Acquisition?",
+      "options": [
+        "Tạo nguồn, tuyển mộ và lựa chọn ứng viên",
+        "Xây dựng cấu trúc tổ chức",
+        "Quản lý rủi ro pháp lý",
+        "Triển khai hệ thống HRIS"
+      ],
+      "correctIndex": 0,
+      "explanation": "Talent Acquisition tập trung vào tìm nguồn, thu hút và lựa chọn ứng viên phù hợp cho tổ chức."
+    },
+    {
+      "id": "people-q2",
+      "question": "Total Rewards bao gồm những thành phần nào?",
+      "options": [
+        "Chỉ lương cơ bản",
+        "Chỉ các khoản thưởng bằng tiền",
+        "Lương, thưởng, phúc lợi và các đãi ngộ phi tiền tệ",
+        "Chỉ phúc lợi bảo hiểm"
+      ],
+      "correctIndex": 2,
+      "explanation": "Total Rewards là tổng thể các đãi ngộ gồm cả yếu tố tiền tệ và phi tiền tệ nhằm thu hút và giữ chân nhân viên."
+    },
+    {
+      "id": "people-q3",
+      "question": "Performance Management được mô tả đúng nhất là gì?",
+      "options": [
+        "Sự kiện đánh giá một lần mỗi năm",
+        "Quy trình liên tục thiết lập mục tiêu, theo dõi và phản hồi hiệu suất",
+        "Hoạt động chỉ do nhân viên tự thực hiện",
+        "Việc tính lương hằng tháng"
+      ],
+      "correctIndex": 1,
+      "explanation": "Quản lý hiệu suất là một quy trình liên tục gắn đóng góp cá nhân với mục tiêu tổ chức, không chỉ là một lần đánh giá."
+    },
+    {
+      "id": "people-q4",
+      "question": "Employee Value Proposition (EVP) là gì?",
+      "options": [
+        "Mức lương tối thiểu theo luật",
+        "Tập hợp giá trị và lợi ích tổ chức mang lại cho nhân viên",
+        "Một loại hợp đồng lao động",
+        "Quy trình sa thải nhân viên"
+      ],
+      "correctIndex": 1,
+      "explanation": "EVP là tập hợp giá trị, lợi ích mà tổ chức cung cấp cho nhân viên, đổi lại kỹ năng và đóng góp của họ."
+    }
+  ],
+  "organization": [
+    {
+      "id": "organization-q1",
+      "question": "Organizational Culture đề cập đến điều gì?",
+      "options": [
+        "Sơ đồ tổ chức chính thức",
+        "Hệ thống giá trị, niềm tin và chuẩn mực chung",
+        "Bảng lương của nhân viên",
+        "Danh sách phần mềm công ty dùng"
+      ],
+      "correctIndex": 1,
+      "explanation": "Văn hóa tổ chức là hệ thống giá trị, niềm tin và chuẩn mực chung định hình hành vi của thành viên."
+    },
+    {
+      "id": "organization-q2",
+      "question": "Change Management chủ yếu nhằm mục đích gì?",
+      "options": [
+        "Giữ nguyên hiện trạng của tổ chức",
+        "Hỗ trợ cá nhân và tổ chức chuyển đổi sang trạng thái mong muốn",
+        "Chỉ thay đổi logo công ty",
+        "Tăng số lượng cuộc họp"
+      ],
+      "correctIndex": 1,
+      "explanation": "Quản trị thay đổi là cách tiếp cận có hệ thống giúp con người và tổ chức chuyển đổi thành công."
+    },
+    {
+      "id": "organization-q3",
+      "question": "Workforce Planning giúp tổ chức đạt được điều gì?",
+      "options": [
+        "Có đúng người, đúng kỹ năng, đúng số lượng, đúng thời điểm",
+        "Giảm chi phí marketing",
+        "Tăng giá cổ phiếu ngay lập tức",
+        "Loại bỏ hoàn toàn rủi ro kinh doanh"
+      ],
+      "correctIndex": 0,
+      "explanation": "Hoạch định nhân lực bảo đảm tổ chức có đúng người với đúng kỹ năng, số lượng và thời điểm cần thiết."
+    },
+    {
+      "id": "organization-q4",
+      "question": "HR Technology (HRIS) chủ yếu được dùng để làm gì?",
+      "options": [
+        "Thay thế toàn bộ nhân viên nhân sự",
+        "Nâng cao hiệu quả các chức năng nhân sự thông qua hệ thống và dữ liệu",
+        "Chỉ lưu trữ hồ sơ giấy",
+        "Quản lý kho hàng hóa"
+      ],
+      "correctIndex": 1,
+      "explanation": "Công nghệ nhân sự giúp tối ưu các chức năng HR bằng hệ thống, dữ liệu và tự động hóa."
+    }
+  ],
+  "workplace": [
+    {
+      "id": "workplace-q1",
+      "question": "Corporate Social Responsibility (CSR) thể hiện điều gì?",
+      "options": [
+        "Chỉ tối đa hóa lợi nhuận ngắn hạn",
+        "Cam kết hành động có đạo đức và đóng góp cho sự phát triển bền vững",
+        "Việc cắt giảm toàn bộ phúc lợi",
+        "Chiến dịch quảng cáo sản phẩm"
+      ],
+      "correctIndex": 1,
+      "explanation": "CSR là cam kết của tổ chức hành động có đạo đức và đóng góp tích cực cho cộng đồng, xã hội."
+    },
+    {
+      "id": "workplace-q2",
+      "question": "Risk Management trong nhân sự bao gồm hoạt động nào?",
+      "options": [
+        "Nhận diện, đánh giá và kiểm soát rủi ro về con người và pháp lý",
+        "Chỉ tổ chức sự kiện nội bộ",
+        "Thiết kế logo thương hiệu",
+        "Đàm phán giá nguyên vật liệu"
+      ],
+      "correctIndex": 0,
+      "explanation": "Quản trị rủi ro gồm nhận diện, đánh giá và kiểm soát các rủi ro về con người, pháp lý và hoạt động."
+    },
+    {
+      "id": "workplace-q3",
+      "question": "Vì sao tuân thủ Employment Law lại quan trọng với tổ chức?",
+      "options": [
+        "Để tăng doanh thu quảng cáo",
+        "Để giảm rủi ro pháp lý và bảo vệ quyền lợi của tổ chức lẫn nhân viên",
+        "Để thay thế quy trình tuyển dụng",
+        "Để loại bỏ nhu cầu đào tạo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tuân thủ luật lao động giúp tổ chức giảm rủi ro pháp lý và bảo vệ quyền lợi của cả hai bên."
+    },
+    {
+      "id": "workplace-q4",
+      "question": "Diversity, Equity & Inclusion tại nơi làm việc hướng tới điều gì?",
+      "options": [
+        "Môi trường tôn trọng đa dạng, công bằng cơ hội và hòa nhập",
+        "Chỉ tuyển dụng một nhóm nhân khẩu học",
+        "Giảm tính minh bạch trong lương",
+        "Hạn chế giao tiếp giữa các phòng ban"
+      ],
+      "correctIndex": 0,
+      "explanation": "DEI hướng tới môi trường tôn trọng sự đa dạng, bảo đảm công bằng về cơ hội và sự hòa nhập của mọi nhân viên."
+    }
+  ],
+  "leadership": [
+    {
+      "id": "leadership-q1",
+      "question": "Năng lực 'Leadership & Navigation' thể hiện điều gì?",
+      "options": [
+        "Khả năng dẫn dắt và điều hướng tổ chức qua các quy trình để đạt mục tiêu",
+        "Kỹ năng lập trình phần mềm",
+        "Việc tính toán bảng lương",
+        "Quản lý kho vật tư"
+      ],
+      "correctIndex": 0,
+      "explanation": "Leadership & Navigation là năng lực dẫn dắt, tạo tầm nhìn và điều hướng tổ chức qua hệ thống, quy trình."
+    },
+    {
+      "id": "leadership-q2",
+      "question": "Ethical Practice nhấn mạnh yếu tố nào?",
+      "options": [
+        "Tối đa hóa lợi nhuận bằng mọi giá",
+        "Duy trì tính chính trực, giá trị cốt lõi và trách nhiệm giải trình",
+        "Bỏ qua các quy định nội bộ",
+        "Ưu tiên lợi ích cá nhân của lãnh đạo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ethical Practice tập trung vào tính chính trực, giá trị cốt lõi và trách nhiệm giải trình trong tổ chức."
+    },
+    {
+      "id": "leadership-q3",
+      "question": "Hai năng lực thuộc nhóm Leadership trong SHRM BASK là gì?",
+      "options": [
+        "Communication và Global Mindset",
+        "Business Acumen và Consultation",
+        "Leadership & Navigation và Ethical Practice",
+        "Relationship Management và Critical Evaluation"
+      ],
+      "correctIndex": 2,
+      "explanation": "Nhóm Leadership gồm hai năng lực: Leadership & Navigation và Ethical Practice."
+    }
+  ],
+  "interpersonal": [
+    {
+      "id": "interpersonal-q1",
+      "question": "Relationship Management bao gồm kỹ năng nào?",
+      "options": [
+        "Xây dựng mạng lưới quan hệ, làm việc nhóm và quản lý xung đột",
+        "Lập báo cáo tài chính",
+        "Thiết kế hệ thống máy chủ",
+        "Phân tích dữ liệu lớn"
+      ],
+      "correctIndex": 0,
+      "explanation": "Relationship Management gồm xây dựng quan hệ, làm việc nhóm và quản lý xung đột hiệu quả."
+    },
+    {
+      "id": "interpersonal-q2",
+      "question": "Global Mindset đề cập đến năng lực gì?",
+      "options": [
+        "Chỉ làm việc với một nền văn hóa duy nhất",
+        "Đánh giá cao và tôn trọng sự khác biệt văn hóa để làm việc hiệu quả",
+        "Tránh giao tiếp quốc tế",
+        "Chuẩn hóa mọi quy trình toàn cầu giống nhau"
+      ],
+      "correctIndex": 1,
+      "explanation": "Global Mindset là năng lực tôn trọng và tận dụng sự đa dạng văn hóa trong môi trường toàn cầu."
+    },
+    {
+      "id": "interpersonal-q3",
+      "question": "Năng lực nào sau đây thuộc nhóm Interpersonal của SHRM BASK?",
+      "options": [
+        "Analytical Aptitude",
+        "Communication",
+        "Ethical Practice",
+        "Business Acumen"
+      ],
+      "correctIndex": 1,
+      "explanation": "Communication thuộc nhóm Interpersonal, cùng với Relationship Management, Global Mindset và DEI."
+    }
+  ],
+  "business": [
+    {
+      "id": "business-q1",
+      "question": "Business Acumen giúp người làm nhân sự điều gì?",
+      "options": [
+        "Hiểu hoạt động kinh doanh và liên kết HR với mục tiêu tổ chức",
+        "Chỉ xử lý thủ tục hành chính",
+        "Thay thế bộ phận kế toán",
+        "Bỏ qua chiến lược doanh nghiệp"
+      ],
+      "correctIndex": 0,
+      "explanation": "Business Acumen là năng lực hiểu kinh doanh, tài chính, vận hành để gắn chiến lược nhân sự với mục tiêu tổ chức."
+    },
+    {
+      "id": "business-q2",
+      "question": "Analytical Aptitude liên quan nhiều nhất đến hoạt động nào?",
+      "options": [
+        "Thu thập, diễn giải và dùng dữ liệu để hỗ trợ ra quyết định",
+        "Thiết kế giao diện website",
+        "Tổ chức tiệc công ty",
+        "Soạn thảo hợp đồng thuê văn phòng"
+      ],
+      "correctIndex": 0,
+      "explanation": "Analytical Aptitude là năng lực thu thập, diễn giải và sử dụng dữ liệu để ra quyết định dựa trên bằng chứng."
+    },
+    {
+      "id": "business-q3",
+      "question": "Consultation trong SHRM BASK được hiểu là gì?",
+      "options": [
+        "Chỉ ban hành mệnh lệnh cho nhân viên",
+        "Tư vấn và đưa giải pháp nhân sự cho các bên liên quan",
+        "Giám sát camera an ninh",
+        "Quản lý lịch bảo trì máy móc"
+      ],
+      "correctIndex": 1,
+      "explanation": "Consultation là năng lực tư vấn, hướng dẫn và cung cấp giải pháp nhân sự cho các bên liên quan trong tổ chức."
+    }
+  ]
+}
