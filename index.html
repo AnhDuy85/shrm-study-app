@@ -4,6 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SHRM Study App</title>
+    <script>
+      // Base-aware SPA restore (spa-github-pages technique).
+      // 404.html redirects a hard-refreshed deep route to the deployment base
+      // with the original route encoded as `?/route`. Here we decode it and
+      // restore the real URL via history.replaceState BEFORE React Router
+      // mounts, so BrowserRouter sees the intended path. The base is derived
+      // from the page's own location, so no repo segment is hardcoded and the
+      // logic works at "/" (dev) and "/<repo>/" (Pages) alike.
+      (function () {
+        var loc = window.location;
+        if (loc.search && loc.search[1] === '/') {
+          var base = new URL('.', document.baseURI).pathname;
+          var decoded = loc.search
+            .slice(1)
+            .split('&')
+            .map(function (part) {
+              return part.replace(/~and~/g, '&');
+            })
+            .join('?')
+            .replace('/', '');
+          window.history.replaceState(null, null, base + decoded + loc.hash);
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

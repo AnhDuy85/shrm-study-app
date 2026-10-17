@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHRM Study App</title>
+    <script>
+      // Base-aware SPA redirect for GitHub Pages (spa-github-pages technique).
+      // GitHub Pages serves this file for any unknown path (e.g. a hard refresh
+      // on /<repo>/module/people). We capture the attempted route, encode it
+      // into a query string, and redirect to the deployment base, where
+      // index.html's restore snippet rebuilds the original URL before React
+      // Router mounts. BrowserRouter stays untouched.
+      //
+      // The base ("/" locally, "/<repo>/" on Pages) is derived from this page's
+      // own location — the directory that serves 404.html IS the deployment
+      // base — so no repo segment is hardcoded and the logic does not assume a
+      // fixed segment count.
+      (function () {
+        var loc = window.location;
+        // document.baseURI resolves to the directory serving this file; its
+        // pathname is the deployment base (always ends with "/").
+        var base = new URL('.', document.baseURI).pathname;
+        // Strip the base prefix off the attempted path; keep whatever remains
+        // (the in-app route), plus search and hash.
+        var full = loc.pathname;
+        var route = full.indexOf(base) === 0 ? full.slice(base.length) : full.replace(/^\/+/, '');
+        var redirect =
+          base +
+          '?/' +
+          route.replace(/&/g, '~and~') +
+          (loc.search ? '&' + loc.search.slice(1).replace(/&/g, '~and~') : '') +
+          loc.hash;
+        loc.replace(redirect);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
